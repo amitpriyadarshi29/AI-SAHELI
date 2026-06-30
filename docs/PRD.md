@@ -69,3 +69,35 @@ Earn and maintain user trust by prioritizing privacy, transparency, reliability,
 ## 7. Enable a Scalable AI Ecosystem
 
 Build a flexible platform capable of integrating future AI capabilities, third-party services, healthcare technologies, smart home systems, vehicles, and other connected environments while maintaining a consistent user experience.
+
+# Non-Goals
+
+To maintain a clear product vision and ensure long-term focus, AI SAHELI deliberately excludes certain responsibilities and capabilities from its intended scope. The following are explicit non-goals of the product.
+
+## 1. Replace Human Relationships
+
+AI SAHELI is designed to complement human relationships, not replace them. It aims to strengthen connections between users, families, caregivers, and communities rather than becoming a substitute for human companionship.
+
+## 2. Replace Medical or Emergency Professionals
+
+Although AI SAHELI may provide wellbeing support, reminders, and assistance during emergencies, it is not a healthcare provider, medical diagnostic system, or emergency response service. Users should continue to seek qualified professional assistance whenever appropriate.
+
+## 3. Make Autonomous Life-Impacting Decisions
+
+AI SAHELI will not make significant personal, financial, legal, or medical decisions on behalf of users. Final decision-making authority always remains with the user or their authorised representatives.
+
+## 4. Operate Without User Consent
+
+AI SAHELI will not monitor, collect, share, or act upon personal information beyond the permissions and preferences explicitly configured by the user. Privacy, transparency, and user control remain fundamental principles of the platform.
+
+## 5. Automate Every Aspect of Daily Life
+
+The objective of AI SAHELI is to simplify life, not remove user control. Users should always be able to understand, review, override, or disable AI-driven assistance and automation.
+
+## 6. Depend on a Single Device or Platform
+
+AI SAHELI is not intended to be limited to a specific mobile application, smartwatch, operating system, or hardware platform. The long-term vision is to provide a consistent companion experience across multiple devices and future technologies.
+
+## 7. Pursue Technology Without User Value
+
+AI SAHELI will not adopt new AI technologies or integrations simply because they are available. Every capability introduced must provide meaningful value, strengthen the trusted companion experience, and align with the product vision and guiding principles.
