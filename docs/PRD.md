@@ -23,3 +23,15 @@ AI SAHELI is intended for people of all ages and backgrounds, with particular em
 The platform is designed to operate seamlessly across smartphones and smartwatches from its initial release, with a long-term vision of expanding to additional connected devices and environments. Regardless of the device being used, users should experience the same trusted companion with consistent behaviour, memory, and personality.
 
 AI SAHELI is built as an extensible AI platform capable of integrating new capabilities, external services, healthcare devices, smart home technologies, vehicles, and future AI technologies. This ensures that the product continues to evolve while maintaining a simple, intuitive, and trustworthy experience for its users.
+
+# Problem Statement
+
+Modern life depends on an increasing number of digital applications and services. While each application solves a specific problem, users are required to constantly switch between them, learn different interfaces, remember where information is stored, and manually coordinate tasks across multiple platforms. This fragmented experience creates unnecessary complexity and reduces productivity.
+
+Recent advances in artificial intelligence have made conversational interfaces more capable, but most AI assistants remain reactive. They answer questions and perform isolated tasks, yet they rarely understand the user's long-term context, routines, priorities, or wellbeing. As a result, users still carry the burden of managing their daily lives rather than being supported by a truly intelligent companion.
+
+At the same time, millions of people—including elderly individuals, people living alone, those managing health conditions, and busy families—face growing challenges in staying connected and feeling safe. Family members often worry about the wellbeing of loved ones when they are apart, while existing digital assistants provide limited support during situations where timely assistance or proactive intervention could make a meaningful difference.
+
+There is a need for an AI companion that goes beyond answering questions or executing commands. Users need a trusted system that understands them over time, simplifies interactions with technology, provides intelligent assistance across everyday activities, and supports personal safety and wellbeing while respecting privacy and user control.
+
+AI SAHELI addresses these challenges by combining conversational AI, intelligent automation, contextual understanding, and cross-device accessibility into a single trusted companion that can assist users throughout their daily lives while providing reassurance to both users and their families.
