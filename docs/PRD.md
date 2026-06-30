@@ -35,3 +35,37 @@ At the same time, millions of people—including elderly individuals, people liv
 There is a need for an AI companion that goes beyond answering questions or executing commands. Users need a trusted system that understands them over time, simplifies interactions with technology, provides intelligent assistance across everyday activities, and supports personal safety and wellbeing while respecting privacy and user control.
 
 AI SAHELI addresses these challenges by combining conversational AI, intelligent automation, contextual understanding, and cross-device accessibility into a single trusted companion that can assist users throughout their daily lives while providing reassurance to both users and their families.
+
+# Goals
+
+The primary goal of AI SAHELI is to become a trusted AI companion that supports users throughout their daily lives by providing intelligent assistance, enhancing personal safety, simplifying technology, and delivering meaningful peace of mind to both users and their families.
+
+To achieve this vision, AI SAHELI will pursue the following strategic goals:
+
+## 1. Become a Trusted AI Companion
+
+Develop an AI companion that users naturally rely on for everyday assistance, guidance, and support through intuitive, natural conversations.
+
+## 2. Enhance Safety and Wellbeing
+
+Provide proactive assistance that promotes personal safety and wellbeing while respecting user privacy, preferences, and control. Enable users and their designated family members or caregivers to feel more confident that support is available when needed.
+
+## 3. Simplify Everyday Technology
+
+Reduce the complexity of interacting with digital services by allowing users to accomplish tasks through natural voice conversations instead of navigating multiple applications and interfaces.
+
+## 4. Deliver Personalized Assistance
+
+Continuously understand user preferences, routines, and context to provide increasingly relevant, helpful, and personalized experiences over time.
+
+## 5. Provide a Seamless Cross-Device Experience
+
+Ensure users can interact with AI SAHELI consistently across smartphones, smartwatches, and future supported devices without losing context, memory, or continuity.
+
+## 6. Build User Trust
+
+Earn and maintain user trust by prioritizing privacy, transparency, reliability, security, and giving users full control over how AI SAHELI accesses, stores, and uses their information.
+
+## 7. Enable a Scalable AI Ecosystem
+
+Build a flexible platform capable of integrating future AI capabilities, third-party services, healthcare technologies, smart home systems, vehicles, and other connected environments while maintaining a consistent user experience.
