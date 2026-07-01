@@ -101,3 +101,322 @@ AI SAHELI is not intended to be limited to a specific mobile application, smartw
 ## 7. Pursue Technology Without User Value
 
 AI SAHELI will not adopt new AI technologies or integrations simply because they are available. Every capability introduced must provide meaningful value, strengthen the trusted companion experience, and align with the product vision and guiding principles.
+
+
+
+# Personas & Actors
+
+AI SAHELI is designed as an AI Companion Ecosystem that supports individuals while strengthening the trusted relationships between people who care for one another. Unlike traditional applications that primarily focus on a single user, AI SAHELI recognises that many meaningful interactions involve family members, caregivers, friends, healthcare professionals, and connected services.
+
+To reflect this ecosystem, AI SAHELI distinguishes between **Actors**, who participate in the ecosystem, and **Personas**, which describe the needs, behaviours, and goals of the primary users.
+
+---
+
+# Actors
+
+## 1. Primary User
+
+The Primary User is the owner of an AI SAHELI companion. Every Primary User has their own private AI SAHELI that learns their preferences, routines, context, and permissions.
+
+Examples include:
+
+* Elderly individuals
+* Adults living independently
+* Busy professionals
+* Parents
+* Students
+* Travellers
+* People with accessibility needs
+
+Each Primary User has complete control over their own AI SAHELI, including privacy settings, permissions, Trusted Circle membership, and data sharing preferences.
+
+---
+
+## 2. Trusted Circle Member
+
+A Trusted Circle Member is a person explicitly authorised by the Primary User to receive selected information, wellbeing updates, emergency notifications, or collaborate on shared activities according to configurable permissions.
+
+Examples include:
+
+* Husband or Wife
+* Parent
+* Son or Daughter
+* Sibling
+* Close Friend
+* Caregiver
+* Neighbour
+
+Every Trusted Circle Member remains an independent user with their own AI SAHELI. Membership within a Trusted Circle never grants unrestricted access to another user's information.
+
+---
+
+## 3. Healthcare Participants (Future)
+
+Healthcare Participants may interact with AI SAHELI through user-authorised permissions.
+
+Examples include:
+
+* Doctor
+* Nurse
+* Hospital
+* Clinic
+* Physiotherapist
+
+Interactions with healthcare participants will always require explicit user consent and comply with applicable privacy and healthcare regulations.
+
+---
+
+## 4. Emergency Services (Future)
+
+Emergency services may receive information from AI SAHELI only when explicitly configured by the user and supported by local regulations and technical capabilities.
+
+Examples include:
+
+* Ambulance Services
+* Police
+* Fire & Rescue Services
+
+---
+
+## 5. Connected Systems (Future)
+
+AI SAHELI may integrate with intelligent devices and external services that enhance the overall companion experience.
+
+Examples include:
+
+* Smart Home Systems
+* Vehicles
+* Smart Speakers
+* Healthcare Devices
+* Wearable Devices
+* Third-party Digital Services
+
+---
+
+# Primary User Personas
+
+The following representative personas capture the primary user groups that AI SAHELI is designed to support.
+
+---
+
+## Persona 1 – Elderly Individual Living Independently
+
+### Goals
+
+* Maintain independence
+* Feel safe while living alone
+* Stay connected with family
+* Receive reminders and assistance
+* Access help during emergencies
+
+### Pain Points
+
+* Living alone
+* Memory challenges
+* Technology complexity
+* Family concern about wellbeing
+
+### AI SAHELI Value
+
+* Daily AI companion
+* Voice-first interaction
+* Wellbeing assistance
+* Trusted Circle support
+* Emergency assistance
+
+### Typical Devices
+
+* Smartphone
+* Smartwatch
+
+---
+
+## Persona 2 – Busy Professional
+
+### Goals
+
+* Save time
+* Stay organised
+* Improve productivity
+* Reduce digital overload
+* Maintain work-life balance
+
+### Pain Points
+
+* Too many applications
+* Busy schedules
+* Information overload
+* Frequent context switching
+
+### AI SAHELI Value
+
+* Voice-first assistant
+* Intelligent automation
+* Personal planning
+* Cross-device continuity
+
+### Typical Devices
+
+* Smartphone
+* Smartwatch
+* Earbuds
+* Vehicle
+
+---
+
+## Persona 3 – Parent / Family Coordinator
+
+### Goals
+
+* Coordinate family activities
+* Manage daily schedules
+* Stay connected with family members
+* Ensure family wellbeing
+
+### Pain Points
+
+* Busy family life
+* Multiple calendars
+* Constant coordination
+* Concern for loved ones
+
+### AI SAHELI Value
+
+* Shared planning
+* Trusted Circle coordination
+* Family reminders
+* Emergency notifications
+
+### Typical Devices
+
+* Smartphone
+* Smartwatch
+
+---
+
+## Persona 4 – Student
+
+### Goals
+
+* Learn efficiently
+* Stay organised
+* Manage time effectively
+
+### Pain Points
+
+* Distractions
+* Poor time management
+* Information overload
+
+### AI SAHELI Value
+
+* Learning assistance
+* Task planning
+* Study support
+* Voice interaction
+
+### Typical Devices
+
+* Smartphone
+* Earbuds
+* Smartwatch
+
+---
+
+## Persona 5 – Traveller
+
+### Goals
+
+* Travel safely
+* Navigate efficiently
+* Stay connected
+
+### Pain Points
+
+* Unfamiliar environments
+* Travel logistics
+* Communication challenges
+
+### AI SAHELI Value
+
+* Intelligent travel assistance
+* Navigation support
+* Trusted Circle updates
+* Emergency assistance
+
+### Typical Devices
+
+* Smartphone
+* Smartwatch
+* Vehicle
+
+---
+
+## Persona 6 – Person with Accessibility Needs
+
+### Goals
+
+* Maintain independence
+* Simplify technology
+* Access assistance quickly
+
+### Pain Points
+
+* Accessibility barriers
+* Complex interfaces
+* Difficulty requesting help
+
+### AI SAHELI Value
+
+* Voice-first interaction
+* Personal assistance
+* Trusted Circle support
+* Emergency assistance
+
+### Typical Devices
+
+* Smartphone
+* Smartwatch
+* Accessibility devices
+
+---
+
+## Persona 7 – Caregiver / Family Member
+
+### Goals
+
+* Ensure the wellbeing of loved ones
+* Receive important notifications
+* Provide timely support
+* Coordinate care effectively
+
+### Pain Points
+
+* Distance from loved ones
+* Limited visibility during emergencies
+* Anxiety about wellbeing
+
+### AI SAHELI Value
+
+* Trusted Circle participation
+* Wellbeing notifications
+* Emergency coordination
+* Shared reminders (where authorised)
+
+### Typical Devices
+
+* Smartphone
+* Smartwatch
+
+---
+
+# Persona Principles
+
+AI SAHELI is designed around the following principles:
+
+* Every person owns and controls their own AI SAHELI.
+* Trust is established through explicit consent, not assumption.
+* Trusted Circle relationships are configurable and permission-based.
+* Users remain in control of what information is shared and with whom.
+* The same individual may fulfil multiple personas throughout different stages of life.
+* Personas guide product design but never restrict product capabilities.
