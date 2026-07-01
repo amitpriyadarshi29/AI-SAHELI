@@ -420,3 +420,647 @@ AI SAHELI is designed around the following principles:
 * Users remain in control of what information is shared and with whom.
 * The same individual may fulfil multiple personas throughout different stages of life.
 * Personas guide product design but never restrict product capabilities.
+
+
+# Chapter 7 – Companion Journeys
+
+## 7.1 Introduction
+
+Companion Journeys describe how users interact with AI SAHELI throughout different stages of their lives and daily routines. Unlike traditional user journeys that focus primarily on screen navigation or application workflows, Companion Journeys represent the complete interaction between the user, AI SAHELI, trusted individuals, connected devices, and external services.
+
+Each Companion Journey is designed to reinforce AI SAHELI's role as a trusted AI companion by delivering meaningful assistance while respecting user privacy, consent, and control.
+
+Companion Journeys provide the primary reference for defining functional requirements, user experience flows, system architecture, APIs, and implementation details throughout the remainder of the project.
+
+To maintain consistency and traceability, every journey is assigned a unique Companion Journey Identifier (CJ-ID). These identifiers are referenced across the PRD, HLD, LLD, implementation, testing, and demonstration scenarios.
+
+Companion Journeys are organised into the following Journey Families:
+
+* Getting Started
+* Everyday Companion
+* Trusted Circle
+* Safety & Emergency
+* Personal Assistant
+* Health & Wellbeing
+* Cross-Device Experience
+* AI Learning & Growth
+* Privacy & Trust
+
+Each Journey Family groups related user interactions while allowing the platform to evolve without changing the overall product structure.
+
+
+## 7.2 Journey Family 1 – Getting Started
+
+### CJ-001 – First-Time Onboarding
+
+**Companion Journey ID:** CJ-001
+
+#### Objective
+
+Establish the first trusted relationship between the user and AI SAHELI while collecting only the minimum information required to deliver a safe, personalised, and privacy-respecting companion experience.
+
+#### Primary Actor
+
+* Primary User
+
+#### Supporting Actors
+
+* AI SAHELI
+* Authentication Service
+* Device Services
+* Notification Service
+
+#### Preconditions
+
+* AI SAHELI application is installed.
+* User has a compatible device.
+* Internet connectivity is available.
+
+#### Success Criteria
+
+The user:
+
+* Successfully creates or signs in to an AI SAHELI account.
+* Completes the essential companion setup.
+* Understands AI SAHELI's purpose and privacy principles.
+* Grants only the permissions required for the selected features.
+* Begins the first natural conversation with AI SAHELI.
+* Is ready to continue using AI SAHELI immediately.
+
+#### Journey Principles
+
+* Companion before configuration.
+* Progressive trust.
+* Privacy by design.
+* Human always in control.
+* Minimal friction.
+* Continue learning over time.
+
+#### High-Level Flow
+
+1. Welcome by AI SAHELI.
+2. Brief conversational introduction.
+3. Secure account creation or sign-in.
+4. Essential profile setup.
+5. Configure core permissions.
+6. Optional smartwatch pairing.
+7. First conversation.
+8. AI SAHELI becomes available for everyday use.
+
+#### Post Conditions
+
+* AI SAHELI is operational.
+* The user can immediately interact with their companion.
+* Additional personalisation is deferred to future conversations through Progressive Companion Learning.
+
+```
+```
+### CJ-002 – Progressive Companion Learning
+
+**Companion Journey ID:** CJ-002
+
+#### Objective
+
+Enable AI SAHELI to gradually build a trusted relationship with the user by learning preferences, routines, and personalisation information over time through natural conversations and contextual interactions.
+
+#### Primary Actor
+
+* Primary User
+
+#### Supporting Actors
+
+* AI SAHELI
+
+#### Preconditions
+
+* CJ-001 (First-Time Onboarding) has been completed.
+* AI SAHELI is actively being used.
+
+#### Success Criteria
+
+* AI SAHELI continuously improves its understanding of the user.
+* Personalisation occurs gradually rather than during onboarding.
+* Additional permissions are requested only when they provide clear value.
+* The user remains fully informed and in control of every permission and preference.
+
+#### Journey Principles
+
+* Progressive Trust
+* Just-In-Time Personalisation
+* Privacy by Design
+* Human Always in Control
+* Learn Through Conversation
+* Never Interrupt Without Purpose
+
+#### Typical Examples
+
+AI SAHELI may naturally ask:
+
+* "Would you like me to remember this preference?"
+* "Would it help if I reminded you about this every weekday?"
+* "Would you like to add someone to your Trusted Circle?"
+* "Would you like me to connect to your calendar so I can help manage your schedule?"
+* "I notice you often leave home around this time. Would you like traffic updates before you leave?"
+
+Each interaction should be relevant to the current context and provide an immediate, understandable benefit to the user.
+
+#### Post Conditions
+
+* AI SAHELI develops a progressively richer understanding of the user's preferences and routines.
+* Trust grows naturally through continued interaction.
+* Users experience increasing personalisation without feeling overwhelmed by configuration or permission requests.
+
+
+### CJ-003 – Companion Presence
+
+**Companion Journey ID:** CJ-003
+
+#### Objective
+
+Enable users to extend AI SAHELI naturally across supported devices, allowing the same trusted companion to remain continuously available regardless of where or how the user interacts.
+
+#### Primary Actor
+
+* Primary User
+
+#### Supporting Actors
+
+* AI SAHELI
+* Device Management Services
+* Connected Devices
+
+#### Preconditions
+
+* CJ-001 (First-Time Onboarding) has been completed.
+* AI SAHELI is operational on at least one device.
+* A compatible secondary device is available.
+
+#### Success Criteria
+
+* AI SAHELI becomes available on the newly connected device.
+* Conversations, context, preferences, and companion identity remain consistent.
+* Users experience a seamless transition between devices without creating a separate companion.
+* Device-specific capabilities are automatically recognised and used where appropriate.
+
+#### Journey Principles
+
+* One Companion, Many Devices.
+* Consistent Identity.
+* Context Continuity.
+* Ambient Presence.
+* Human Always in Control.
+
+#### Typical Examples
+
+* Continue a conversation from phone to smartwatch.
+* Receive reminders on the most appropriate available device.
+* Move from phone to vehicle without restarting the interaction.
+* Extend AI SAHELI to future supported devices while maintaining the same companion experience.
+
+#### Post Conditions
+
+* AI SAHELI is available across all authorised devices.
+* The user experiences a single companion regardless of the device being used.
+* Future devices can join the companion ecosystem without changing the user's relationship with AI SAHELI.
+
+### CJ-004 – Invite Trusted Circle Member
+
+**Companion Journey ID:** CJ-004
+
+#### Objective
+
+Enable the Primary User to establish the foundation of a trusted relationship by inviting another individual to join their Trusted Circle. The invitation creates a trusted relationship between two independent AI SAHELI users but does not automatically grant access to any personal information or permissions.
+
+#### Primary Actor
+
+* Primary User
+
+#### Supporting Actors
+
+* AI SAHELI
+* Invited User
+* Invitation Service
+
+#### Preconditions
+
+* CJ-001 (First-Time Onboarding) has been completed.
+* AI SAHELI is actively being used.
+* The invited individual can receive an AI SAHELI invitation.
+
+#### Journey Triggers
+
+##### User-Initiated
+
+The journey may begin when the Primary User:
+
+* Opens the Trusted Circle section and selects **Add Member**.
+* Asks AI SAHELI to invite someone.
+* Selects an "Invite to Trusted Circle" option from another feature.
+
+##### AI-Initiated
+
+AI SAHELI may recommend creating a Trusted Circle when appropriate, for example:
+
+* The user has developed sufficient trust through continued use.
+* The user enables wellbeing or emergency-related features.
+* The user would benefit from connecting with family members or caregivers.
+
+AI SAHELI recommendations are optional. Users remain free to create or manage their Trusted Circle at any time without waiting for a recommendation.
+
+#### Success Criteria
+
+* An invitation is sent to the selected individual.
+* The invited individual receives the invitation.
+* The relationship type is identified.
+* Both individuals understand that accepting the invitation does not automatically share personal information or grant permissions.
+* The relationship proceeds to CJ-005 (Relationship Discovery).
+
+#### Journey Principles
+
+* User First, AI Second.
+* Relationship Before Permission.
+* Mutual Consent.
+* Privacy by Design.
+* Human Always in Control.
+* Trust Through Transparency.
+
+#### High-Level Flow
+
+1. Journey is initiated by either the user or AI SAHELI.
+2. User selects the person to invite.
+3. User identifies the relationship type (e.g., spouse, parent, child, caregiver, friend).
+4. AI SAHELI explains the purpose of the Trusted Circle.
+5. Invitation is sent.
+6. Invited individual accepts or declines the invitation.
+7. Accepted invitations continue to CJ-005 (Relationship Discovery).
+
+#### Post Conditions
+
+* A trusted relationship invitation has been completed.
+* If accepted, a Trusted Relationship is established.
+* No personal information has been shared.
+* No permissions have been granted.
+* Both users retain complete control over future relationship configuration.
+
+
+### CJ-005 – Building a Trusted Relationship
+
+**Companion Journey ID:** CJ-005
+
+#### Objective
+
+Enable AI SAHELI to gradually understand the nature of a trusted relationship so it can provide relevant, privacy-respecting recommendations while keeping each user's personal intelligence independent.
+
+#### Primary Actor
+
+* Primary User
+
+#### Supporting Actors
+
+* AI SAHELI
+* Trusted Circle Member
+
+#### Preconditions
+
+* CJ-004 (Invite Trusted Circle Member) has been completed.
+* The invited individual has accepted the Trusted Circle invitation.
+* No personal information has been shared automatically.
+* No permissions have been granted automatically.
+
+#### Journey Triggers
+
+##### User-Initiated
+
+The journey may begin when the Primary User:
+
+* Opens the Trusted Circle relationship details.
+* Asks AI SAHELI to help configure the relationship.
+* Shares information naturally during conversation.
+
+##### AI-Initiated
+
+AI SAHELI may ask relationship-related questions when doing so provides clear value, for example:
+
+* After a Trusted Circle invitation has been accepted.
+* When the user enables wellbeing, safety, reminder, or family coordination features.
+* When AI SAHELI identifies that relationship context could improve recommendations.
+
+#### Success Criteria
+
+* AI SAHELI understands basic relationship context without overwhelming the user.
+* Relationship understanding develops progressively over time.
+* Each user's AI SAHELI maintains its own independent understanding of the relationship.
+* No assumptions are used to grant permissions.
+* All sharing remains subject to explicit consent.
+
+#### Relationship Dimensions
+
+AI SAHELI may gradually learn the relationship across the following dimensions:
+
+1. **Relationship Type**
+   Example: spouse, parent, child, sibling, friend, caregiver, neighbour.
+
+2. **Living Context**
+   Example: lives together, lives nearby, lives in another city, lives in another country.
+
+3. **Care Context**
+   Example: I care for them, they care for me, we care for each other, emergency contact only.
+
+4. **Interaction Goals**
+   Example: emergency support, wellbeing updates, shared reminders, travel safety, family coordination.
+
+#### Journey Principles
+
+* Progressive Relationship Discovery.
+* Personal Intelligence, Shared Trust.
+* Relationship Before Permission.
+* Privacy by Design.
+* Human Always in Control.
+* Just-In-Time Personalisation.
+* Mutual Consent.
+
+#### High-Level Flow
+
+1. Trusted Circle invitation is accepted.
+2. AI SAHELI confirms that the trusted relationship has been established.
+3. AI SAHELI explains that no information will be shared without permission.
+4. AI SAHELI asks only the minimum useful relationship question at the right time.
+5. User provides relationship context.
+6. AI SAHELI stores this understanding privately for that user's own companion experience.
+7. AI SAHELI may use the relationship context to suggest relevant permission or support options later.
+8. Relationship learning continues progressively over time.
+
+#### Post Conditions
+
+* A trusted relationship exists between the two users.
+* Each user's AI SAHELI maintains its own private understanding of the relationship.
+* No shared relationship intelligence is assumed.
+* No permissions have been granted unless explicitly configured.
+* The relationship is ready to proceed to CJ-006 (Permission & Trust Configuration) when the user chooses.
+
+### CJ-006 – Managing Trust Preferences
+
+**Companion Journey ID:** CJ-006
+
+#### Objective
+
+Enable trusted individuals to define how AI SAHELI may support their relationship through mutually agreed Trust Preferences while ensuring that privacy, consent, and user control remain central to every decision.
+
+#### Primary Actors
+
+* Primary User
+* Trusted Circle Member
+
+#### Supporting Actors
+
+* AI SAHELI
+
+#### Preconditions
+
+* CJ-005 (Building a Trusted Relationship) has been completed.
+* A trusted relationship exists between both users.
+
+#### Journey Triggers
+
+##### User-Initiated
+
+The journey may begin when either user:
+
+* Opens the Trusted Relationship settings.
+* Chooses to review or update Trust Preferences.
+* Requests additional shared capabilities.
+
+##### AI-Initiated
+
+AI SAHELI may recommend reviewing Trust Preferences when:
+
+* A new companion capability becomes available.
+* Relationship context suggests additional value.
+* A significant life event or change makes a review appropriate.
+* Existing preferences no longer match observed usage patterns.
+
+AI SAHELI recommendations are optional and never change Trust Preferences automatically.
+
+#### Success Criteria
+
+* Both users understand the available Trust Preferences.
+* Users explicitly approve or decline each Trust Preference.
+* Trust Preferences can be modified or revoked at any time.
+* Changes affecting the shared relationship are communicated transparently to both users.
+* Technical permissions remain implementation details hidden from users.
+
+#### Trust Preference Categories
+
+Examples include:
+
+* Emergency Support
+* Wellbeing Updates
+* Shared Planning
+* Travel Safety
+* Daily Assistance
+
+Additional categories may be introduced as AI SAHELI evolves.
+
+#### Journey Principles
+
+* Human Always in Control.
+* Mutual Consent.
+* Mutual Transparency.
+* Privacy by Design.
+* Relationship Before Permission.
+* Trust Evolves Over Time.
+
+#### High-Level Flow
+
+1. Journey is initiated by either the user or AI SAHELI.
+2. AI SAHELI presents relevant Trust Preference recommendations.
+3. Users review and customise Trust Preferences.
+4. AI SAHELI explains the expected outcome of each preference in plain language.
+5. Users explicitly confirm or decline their choices.
+6. AI SAHELI applies the agreed Trust Preferences.
+7. Either user may review, modify, or revoke Trust Preferences at any time.
+
+#### Post Conditions
+
+* Trust Preferences reflect the current agreement between the users.
+* Each user's AI SAHELI continues to maintain its own independent understanding of the relationship.
+* Only explicitly authorised information and actions are shared.
+* The trusted relationship can evolve over time without requiring recreation of the relationship.
+
+### CJ-006 – Managing Trust Preferences
+
+**Companion Journey ID:** CJ-006
+
+#### Objective
+
+Enable trusted individuals to define how AI SAHELI may support their relationship through mutually agreed Trust Preferences while ensuring that privacy, consent, transparency, and user control remain central to every decision.
+
+Trust Preferences are designed around the outcomes users wish to achieve rather than technical permissions. AI SAHELI translates these preferences into the appropriate underlying capabilities while keeping users informed and in control.
+
+---
+
+#### Primary Actors
+
+* Primary User
+* Trusted Circle Member
+
+---
+
+#### Supporting Actors
+
+* AI SAHELI
+
+---
+
+#### Preconditions
+
+* CJ-005 (Building a Trusted Relationship) has been completed.
+* A Trusted Relationship exists between both users.
+
+---
+
+#### Journey Triggers
+
+##### User-Initiated
+
+The journey may begin when either user:
+
+* Opens the Trusted Relationship settings.
+* Chooses to review or update Trust Preferences.
+* Requests additional shared capabilities.
+* Modifies an existing relationship.
+
+##### AI-Initiated
+
+AI SAHELI may recommend reviewing Trust Preferences when:
+
+* New companion capabilities become available.
+* Relationship context suggests additional value.
+* A significant life event may benefit from updated preferences.
+* Existing preferences no longer reflect current usage patterns.
+
+AI SAHELI recommendations are optional and never change Trust Preferences automatically.
+
+---
+
+#### Success Criteria
+
+* Both users understand the available Trust Preferences.
+* Users explicitly approve or decline each Trust Preference.
+* Trust Preferences can be reviewed, modified, or revoked at any time.
+* Changes affecting the shared relationship are communicated transparently to both users.
+* AI SAHELI presents meaningful outcomes rather than technical permission settings.
+
+---
+
+#### Trust Preference Categories
+
+Trust Preferences define how AI SAHELI may assist trusted individuals while respecting privacy, consent, and user control.
+
+Examples include:
+
+##### Emergency Support
+
+Examples:
+
+* Emergency alerts
+* Fall detection notifications
+* SOS assistance
+* Emergency escalation
+
+##### Wellbeing Updates
+
+Examples:
+
+* Wellbeing check-ins
+* Medication adherence
+* Inactivity alerts
+* Health-related reminders (where authorised)
+
+##### Shared Planning
+
+Examples:
+
+* Shared reminders
+* Shopping lists
+* Calendar coordination
+* Family events
+
+##### Travel Safety
+
+Examples:
+
+* Journey monitoring
+* Safe arrival confirmation
+* Delayed journey notifications
+
+##### Location & Presence
+
+Examples:
+
+* Safe arrival notifications
+* Temporary live location sharing during travel
+* Emergency location sharing
+* Journey tracking
+* Device battery status
+* Last known location during emergencies (where authorised)
+
+Whenever possible, AI SAHELI communicates meaningful context rather than raw technical information.
+
+For example:
+
+* "Amit has arrived safely at work."
+* "Your daughter appears to be travelling home."
+* "Your father's phone battery is running low."
+* "Your wife may need assistance."
+
+instead of simply exposing raw GPS coordinates, battery percentages, or device telemetry.
+
+##### Daily Assistance
+
+Examples:
+
+* Family reminders
+* Routine coordination
+* Contextual assistance
+* Household support
+
+Each Trust Preference may contain multiple configurable sharing options depending on the relationship, user consent, and the level of assistance desired.
+
+AI SAHELI manages the underlying technical permissions internally while presenting simple, human-centred choices to users.
+
+---
+
+#### Journey Principles
+
+* Human Always in Control.
+* Mutual Consent.
+* Mutual Transparency.
+* Privacy by Design.
+* Relationship Before Permission.
+* User First, AI Second.
+* Trust Evolves Over Time.
+* Share Understanding, Not Data.
+
+---
+
+#### High-Level Flow
+
+1. Journey is initiated by either the user or AI SAHELI.
+2. AI SAHELI recommends relevant Trust Preferences based on the relationship and current context.
+3. Users review and customise Trust Preferences.
+4. AI SAHELI explains the expected outcome of each preference using clear, human-centred language.
+5. Users explicitly approve or decline their choices.
+6. AI SAHELI applies the agreed Trust Preferences.
+7. If future changes affect the shared relationship, both users are informed and invited to review the updated preferences.
+8. Either user may review, modify, or revoke Trust Preferences at any time.
+
+---
+
+#### Post Conditions
+
+* Trust Preferences accurately reflect the current agreement between both users.
+* Each AI SAHELI continues to maintain its own independent understanding of its user and relationships.
+* Only explicitly authorised information and actions are shared.
+* Trust Preferences evolve naturally as relationships and user needs change.
+* Users remain in complete control of their privacy and sharing preferences throughout the lifetime of the relationship.
