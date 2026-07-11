@@ -1064,3 +1064,1053 @@ AI SAHELI manages the underlying technical permissions internally while presenti
 * Only explicitly authorised information and actions are shared.
 * Trust Preferences evolve naturally as relationships and user needs change.
 * Users remain in complete control of their privacy and sharing preferences throughout the lifetime of the relationship.
+
+
+# CJ-201 – Daily Companion Check-in
+
+## Objective
+
+Enable AI SAHELI to naturally reconnect with the user throughout the day in a way that feels thoughtful, personal, and welcome rather than repetitive or intrusive. Every check-in should strengthen the long-term relationship between the user and their companion.
+
+---
+
+## Primary Actors
+
+* User
+* AI Companion
+
+---
+
+## Supporting Actors
+
+* Context Engine
+* Memory Engine
+* Notification Engine
+* Personalization Engine
+
+---
+
+## Preconditions
+
+* The user has completed onboarding.
+* A trusted companion relationship has been established.
+* The companion has learned at least a minimal understanding of the user's preferences and routine.
+* Notifications (or an equivalent communication channel) are enabled.
+* User-defined quiet hours and trust preferences are respected.
+
+---
+
+## Journey Triggers
+
+The companion may initiate a check-in based on one or more of the following:
+
+* Morning greeting
+* Evening greeting
+* User opens AI SAHELI after a period of inactivity
+* Significant context change
+* Long period without interaction
+* Important day or upcoming event
+* User-defined daily routine
+* User explicitly starts a conversation
+
+The companion should always evaluate the user's current context before deciding whether to initiate a check-in.
+
+---
+
+## Success Criteria
+
+The journey is considered successful when:
+
+* The interaction feels natural rather than automated.
+* The greeting reflects the user's current context whenever appropriate.
+* The companion avoids unnecessary interruptions.
+* The user feels welcomed rather than disturbed.
+* The interaction encourages conversation without demanding attention.
+* User engagement helps improve future check-in timing and style.
+
+---
+
+## Journey Principles
+
+### 1. Companion Before Conversation
+
+The objective is to strengthen the relationship—not simply to start a conversation.
+
+---
+
+### 2. Context Before Communication
+
+Before initiating a check-in, the companion should consider available and permitted contextual information, including:
+
+* Time of day
+* User activity
+* Calendar availability
+* Location (only with permission)
+* Recent interactions
+* Established routines
+* User preferences
+
+---
+
+### 3. Never Generic by Default
+
+Avoid repetitive greetings such as:
+
+> "Hello."
+
+Instead, generate greetings that reflect the user's situation whenever possible.
+
+Examples:
+
+* "Good morning. I hope you slept well."
+* "Welcome back. How has your afternoon been?"
+* "Good luck with your presentation today."
+* "I noticed it's been a busy week. I hope you're finding a little time to recharge."
+
+---
+
+### 4. Silence Is Sometimes Better
+
+If the companion determines that the user is:
+
+* Driving
+* Sleeping
+* In a meeting
+* Using Do Not Disturb mode
+* Focused on work
+* Otherwise unavailable
+
+then it should delay or suppress non-essential check-ins.
+
+Choosing not to interrupt is considered successful companionship.
+
+---
+
+### 5. Relationship Over Frequency
+
+The goal is not to maximize the number of interactions but to maximize the quality, relevance, and trustworthiness of each interaction.
+
+---
+
+## High-Level Flow
+
+1. The companion determines whether a check-in may be appropriate.
+2. Contextual information is gathered from available and permitted sources.
+3. Quiet hours, trust settings, and interruption preferences are evaluated.
+4. If interruption is inappropriate, the companion remains silent.
+5. If appropriate, a personalized greeting is generated.
+6. The user may:
+
+   * Respond and begin a conversation.
+   * Ignore the greeting.
+   * Dismiss the notification.
+7. The companion records anonymous engagement signals to improve future check-in timing, tone, and frequency.
+
+---
+
+## Post Conditions
+
+* The companion gains additional understanding of the user's preferred interaction style.
+* Future greetings become progressively more personalized.
+* Engagement patterns help improve future check-in timing.
+* No unnecessary follow-up reminders are generated if the user chooses not to respond.
+* The user's trust and preference settings remain fully respected.
+
+---
+
+## MVP Notes
+
+For the Interview MVP, the implementation should include:
+
+* Context-aware morning and evening greetings.
+* Basic personalization using the user's name and remembered preferences.
+* Respect for Do Not Disturb mode and configured quiet hours.
+* Simple learning from engagement signals (responded, ignored, dismissed) to improve future interactions.
+
+Future releases may incorporate richer contextual awareness through wearable devices, smart home integrations, multimodal interactions, environmental signals, and predictive engagement while continuing to prioritize user privacy and control.
+
+# CJ-202 – Natural Conversations
+
+## Objective
+
+Enable users to engage in natural, open-ended conversations with AI SAHELI that feel authentic, supportive, and relationship-oriented rather than task-oriented. The companion should adapt to the user's conversational style while maintaining context, empathy, and trust.
+
+---
+
+## Primary Actors
+
+* User
+* AI Companion
+
+---
+
+## Supporting Actors
+
+* Conversation Engine
+* Context Engine
+
+---
+
+## Preconditions
+
+* A trusted companion relationship has been established.
+* The user initiates a conversation or responds to a companion check-in.
+* Trust preferences and privacy settings are respected.
+
+---
+
+## Journey Triggers
+
+A conversation may begin when:
+
+* The user starts a new conversation.
+* The user responds to a companion check-in.
+* The companion appropriately follows up on an earlier conversation.
+* The user shares a thought, feeling, question, or life experience.
+
+---
+
+## High-Level Flow
+
+1. The user starts or resumes a conversation.
+2. The companion identifies the conversation context and user intent.
+3. Relevant conversational context is maintained throughout the interaction.
+4. The companion responds naturally, balancing listening, empathy, curiosity, and assistance.
+5. The conversation continues naturally until either the user or the companion ends the interaction.
+
+---
+
+## Success Criteria
+
+The journey is successful when:
+
+* Conversations feel natural rather than scripted.
+* The companion maintains conversational continuity throughout the interaction.
+* Responses are relevant to the user's situation.
+* Users can speak naturally without repeatedly providing the same information.
+* The interaction feels supportive, engaging, and relationship-oriented.
+
+---
+
+## Conversation Behaviours
+
+The companion should naturally adapt its communication style based on the user's needs.
+
+Examples include:
+
+* Casual everyday conversations.
+* Emotional support.
+* Celebrating achievements.
+* Brainstorming ideas.
+* Learning together.
+* Reflective discussions.
+* Simply listening without immediately offering advice or solutions.
+
+The companion should recognize that not every conversation requires solving a problem. Sometimes the most valuable response is to listen, understand, and remain present.
+
+---
+
+## Conversation Continuity
+
+The companion should preserve conversational context throughout the interaction, enabling users to communicate naturally without unnecessary repetition.
+
+Long-term memory creation and retention are described in **CJ-203 – Remembering What Matters**.
+
+---
+
+## Post Conditions
+
+* The conversation concludes naturally.
+* The interaction ends with conversational context available for appropriate follow-on processing.
+* Any decision regarding long-term memory is handled separately according to CJ-203.
+
+---
+
+## MVP Notes
+
+For the Interview MVP, the implementation should demonstrate:
+
+* Multi-turn conversations.
+* Conversation context preservation.
+* Natural follow-up questions.
+* Context-aware responses.
+
+Future releases may incorporate richer emotional understanding, multilingual conversations, multimodal interactions, and more advanced conversational capabilities.
+
+# CJ-203 – Remembering What Matters
+
+## Objective
+
+Following a conversation, enable AI SAHELI to identify and retain meaningful information that strengthens the long-term relationship while respecting user privacy, trust, and memory preferences.
+
+---
+
+## Primary Actors
+
+* User
+* AI Companion
+
+---
+
+## Supporting Actors
+
+* Memory Engine
+* Conversation Engine
+
+---
+
+## Preconditions
+
+* A trusted companion relationship has been established.
+* The user has configured memory and privacy preferences.
+* The companion has permission to retain memories according to those preferences.
+
+---
+
+## Journey Triggers
+
+Meaningful memories may be created when:
+
+* The user explicitly asks the companion to remember something.
+* The companion identifies potentially meaningful information and requests permission to remember it.
+* Information is learned automatically within the user's configured memory preferences.
+
+---
+
+## High-Level Flow
+
+1. A meaningful piece of information is identified.
+2. The companion determines whether the information should become a long-term memory.
+3. If appropriate, the companion requests the user's confirmation or follows the user's predefined memory preferences.
+4. The memory is retained according to the user's privacy, trust, and memory settings.
+5. The user can review, modify, or remove remembered information at any time.
+
+---
+
+## Success Criteria
+
+The journey is successful when:
+
+* The companion remembers information that meaningfully improves future interactions.
+* Information that is trivial, temporary, or no longer relevant is not unnecessarily retained.
+* Users understand why information is being remembered.
+* Users remain in full control of their memories.
+* Remembered information naturally improves future conversations, personalization, and proactive support.
+
+---
+
+## Memory Behaviours
+
+AI SAHELI should support multiple ways of creating meaningful memories:
+
+* User-initiated memories.
+* Companion-suggested memories with user approval.
+* Automatic learning within the user's configured preferences.
+
+The companion should prioritize remembering information that is meaningful or important to the user's life rather than simply storing personal facts.
+
+Long-term memory creation should be transparent, respectful, and always aligned with the user's trust and privacy preferences.
+
+---
+
+## Post Conditions
+
+* The companion develops a richer understanding of the user over time.
+* Future interactions become increasingly personalized and contextually relevant.
+* The user's memory preferences continue to govern how new memories are created, updated, and managed.
+
+---
+
+## MVP Notes
+
+For the Interview MVP, the implementation should demonstrate:
+
+* User-created memories.
+* Companion-suggested memories requiring confirmation.
+* Basic automatic learning based on user preferences.
+* A simple interface for reviewing, editing, and deleting remembered information.
+
+Future versions may introduce richer memory organization, importance-aware prioritization, confidence-based learning, relationship memories, and advanced long-term personalization.
+
+# CJ-204 – Emotional Awareness
+
+## Objective
+
+Enable AI SAHELI to recognize emotionally significant situations, respond with empathy, and adapt its communication appropriately while avoiding assumptions about the user's emotional state.
+
+---
+
+## Primary Actors
+
+* User
+* AI Companion
+
+---
+
+## Supporting Actors
+
+* Conversation Engine
+* Context Engine
+* Memory Engine
+
+---
+
+## Preconditions
+
+* A trusted companion relationship has been established.
+* The companion has sufficient conversational or contextual information to understand the situation.
+* User privacy and trust preferences are respected.
+
+---
+
+## Journey Triggers
+
+Emotional awareness may be required when:
+
+* The user expresses feelings, concerns, or personal experiences.
+* The conversation involves a meaningful life event or milestone.
+* Recent memories and context indicate an emotionally significant situation.
+* The companion identifies uncertainty and seeks clarification before responding.
+
+---
+
+## High-Level Flow
+
+1. The companion receives conversational and contextual information.
+2. The companion evaluates whether the situation may have emotional significance.
+3. The companion responds with empathy and appropriate tone.
+4. When uncertainty exists, the companion asks respectful clarifying questions rather than making assumptions.
+5. The conversation continues naturally based on the user's responses.
+
+---
+
+## Success Criteria
+
+The journey is successful when:
+
+* The companion responds with empathy without assuming the user's emotions.
+* Communication feels supportive and respectful.
+* The companion adapts its tone to the situation.
+* The user feels understood rather than analysed.
+* Emotional awareness improves the quality of future conversations and support.
+
+---
+
+## Emotional Behaviours
+
+The companion should:
+
+* Recognize emotionally significant situations.
+* Acknowledge important life events.
+* Ask clarifying questions when uncertain.
+* Avoid labelling or diagnosing emotions.
+* Adapt its communication style based on the conversation and available context.
+
+The companion should focus on understanding the user's situation rather than attempting to classify their emotional state.
+
+---
+
+## Post Conditions
+
+* The conversation progresses with appropriate empathy and understanding.
+* Relevant contextual understanding may contribute to future interactions in accordance with the user's memory preferences.
+* The companion continues learning how to communicate effectively with the user over time.
+
+---
+
+## MVP Notes
+
+For the Interview MVP, the implementation should demonstrate:
+
+* Empathetic conversational responses.
+* Tone adaptation based on conversational context.
+* Clarifying questions when emotional intent is uncertain.
+* Context-aware responses using recent conversation and remembered information.
+
+Future versions may introduce richer emotional understanding, multimodal emotional cues, wearable integrations, and longitudinal wellbeing insights while maintaining user privacy and control.
+
+
+# CJ-205 – Context-Aware Assistance
+
+## Objective
+
+Enable AI SAHELI to provide timely, relevant, and personalized assistance by determining the most appropriate response based on the user's current situation using available conversation, memory, emotional understanding, and contextual information.
+
+---
+
+## Primary Actors
+
+* User
+* AI Companion
+
+---
+
+## Supporting Actors
+
+* Context Engine
+* Conversation Engine
+* Memory Engine
+* Emotional Understanding Engine
+
+---
+
+## Preconditions
+
+* A trusted companion relationship has been established.
+* Relevant conversational, contextual, and memory information is available through user-approved sources.
+* Privacy, trust, and permission settings are respected.
+
+---
+
+## Journey Triggers
+
+Context-aware assistance may be provided when:
+
+* The user requests help or guidance.
+* The companion identifies an opportunity to reduce user effort during an ongoing interaction.
+* New contextual information changes the relevance of a potential response.
+* Multiple contextual signals indicate that personalized assistance would improve the user experience.
+
+---
+
+## High-Level Flow
+
+1. The user requests assistance or an appropriate opportunity to assist is identified.
+2. The companion considers relevant conversational, memory, emotional, and contextual understanding.
+3. The companion determines the most appropriate form of assistance for the user's current situation.
+4. The companion provides personalized assistance in a natural and non-intrusive manner.
+5. The user accepts, declines, or continues the conversation naturally.
+
+---
+
+## Success Criteria
+
+The journey is successful when:
+
+* Assistance reflects the user's overall situation rather than only the immediate request.
+* The companion recommends the most relevant next action.
+* Users are not required to repeatedly provide information already understood by the companion.
+* Assistance reduces effort while respecting user expectations, privacy, and trust.
+* The interaction feels natural, timely, and supportive.
+
+---
+
+## Assistance Behaviours
+
+The companion should:
+
+* Consider relevant conversation, memories, emotional understanding, and available context before responding.
+* Prioritize the information that is most relevant to the current situation.
+* Provide assistance that is proportional to the user's needs.
+* Avoid unnecessary or intrusive recommendations.
+* Respect user permissions when using contextual information.
+
+The companion should assist the user's situation rather than simply responding to an isolated request.
+
+---
+
+## Post Conditions
+
+* The user receives assistance that is appropriate to the current situation.
+* The conversation continues naturally based on the user's response.
+* Contextual understanding may contribute to future interactions according to the user's privacy and memory preferences.
+
+---
+
+## MVP Notes
+
+For the Interview MVP, the implementation should demonstrate:
+
+* Personalized assistance using conversation history and remembered information.
+* Situation-aware recommendations based on user-approved contextual information.
+* Reduced need for users to repeat previously shared information.
+* Privacy-aware use of contextual signals.
+* Natural decision-making that adapts assistance to the user's current situation.
+
+Future versions may incorporate richer situational reasoning, wearable devices, calendar awareness, trusted circle context, multimodal contextual understanding, and advanced reasoning capabilities while maintaining user control and transparency.
+
+# CJ-206 – Gentle Proactive Support
+
+## Objective
+
+Enable AI SAHELI to thoughtfully initiate support when it is likely to be timely, helpful, and welcome, while always respecting the user's attention, privacy, trust, and personal boundaries.
+
+---
+
+## Primary Actors
+
+* User
+* AI Companion
+
+---
+
+## Supporting Actors
+
+* Conversation Engine
+* Memory Engine
+* Emotional Understanding Engine
+* Situational Reasoning & Decision Engine
+
+---
+
+## Preconditions
+
+* A trusted companion relationship has been established.
+* The companion has sufficient user-approved understanding to determine that proactive support may be appropriate.
+* User preferences for proactive interactions are respected.
+
+---
+
+## Journey Triggers
+
+The companion may proactively offer support when:
+
+* An important event or milestone is approaching.
+* A meaningful follow-up would benefit the user.
+* The companion identifies an appropriate opportunity to reduce user effort.
+* The user may benefit from encouragement, guidance, or a gentle check-in.
+* Relevant conversation, memory, emotional understanding, and contextual information together indicate that support would likely be helpful.
+
+---
+
+## High-Level Flow
+
+1. The companion identifies a potential opportunity to provide proactive support.
+2. The companion evaluates whether initiating support is appropriate for the current situation.
+3. If appropriate, the companion offers gentle, non-intrusive assistance.
+4. The user accepts, declines, ignores, or postpones the interaction.
+5. The companion respectfully adapts future proactive behaviour based on the user's preferences and responses.
+
+---
+
+## Success Criteria
+
+The journey is successful when:
+
+* Proactive support feels timely, relevant, and thoughtful.
+* The companion reduces user effort without becoming intrusive.
+* Users remain in complete control of proactive interactions.
+* Declining or ignoring proactive support is always respected.
+* Proactive behaviour strengthens trust rather than competing for attention.
+
+---
+
+## Proactive Behaviours
+
+The companion should:
+
+* Offer support only when it is likely to provide meaningful value.
+* Respect the user's attention and personal boundaries.
+* Make proactive interactions optional and easy to decline.
+* Adapt the frequency and style of proactive support over time.
+* Prefer thoughtful companionship over persistent engagement.
+
+The companion earns the right to be proactive through trust, not through frequency.
+
+---
+
+## Post Conditions
+
+* The user receives respectful and situation-appropriate proactive support.
+* The companion continues learning the user's preferences for future proactive interactions.
+* The relationship grows through timely, relevant, and welcome support.
+
+---
+
+## MVP Notes
+
+For the Interview MVP, the implementation should demonstrate:
+
+* Gentle reminders for important user-defined events.
+* Context-aware proactive suggestions.
+* User controls for enabling, disabling, or adjusting proactive interactions.
+* Respectful handling of ignored or declined proactive support.
+
+Future versions may introduce richer initiative planning, adaptive timing, trusted circle collaboration, wellbeing check-ins, wearable integration, and more advanced relationship-aware proactive behaviours while maintaining user control and privacy.
+
+# CJ-207 – Everyday Memory Timeline
+
+## Objective
+
+Enable AI SAHELI to organize and revisit meaningful memories over time, helping users reflect on important life moments while strengthening the long-term companion relationship.
+
+---
+
+## Primary Actors
+
+* User
+* AI Companion
+
+---
+
+## Supporting Actors
+
+* Memory Engine
+* Conversation Engine
+
+---
+
+## Preconditions
+
+* Meaningful memories have been created according to the user's memory preferences.
+* The user has permission to view and manage remembered information.
+* Privacy and trust settings are respected.
+
+---
+
+## Journey Triggers
+
+The memory timeline may be presented when:
+
+* The user chooses to revisit remembered moments.
+* A meaningful anniversary, milestone, or related event occurs.
+* A previous memory becomes relevant to the current conversation.
+* The companion identifies an appropriate opportunity for reflection.
+
+---
+
+## High-Level Flow
+
+1. Meaningful memories are organized into an evolving timeline.
+2. The companion identifies memories that are relevant to the current moment or conversation.
+3. The companion presents those memories naturally and respectfully.
+4. The user may explore, edit, remove, or continue the conversation around those memories.
+5. The timeline evolves as new meaningful memories are created.
+
+---
+
+## Success Criteria
+
+The journey is successful when:
+
+* The timeline highlights meaningful life moments rather than conversation history.
+* Remembered moments strengthen the long-term relationship.
+* Users remain in complete control of their memories.
+* Shared memories naturally enrich future conversations.
+* Reflection feels personal, supportive, and never intrusive.
+
+---
+
+## Timeline Behaviours
+
+The companion should:
+
+* Organize meaningful memories rather than complete conversation logs.
+* Surface memories only when they are relevant or valuable.
+* Allow users to review, edit, and remove remembered moments.
+* Respect privacy and user preferences at all times.
+* Focus on strengthening the relationship rather than preserving every interaction.
+
+Shared memories should strengthen the relationship rather than simply archive past conversations.
+
+---
+
+## Post Conditions
+
+* Meaningful memories remain organized and available for future conversations.
+* The relationship develops through shared experiences over time.
+* Users continue to control how their memories are stored and revisited.
+
+---
+
+## MVP Notes
+
+For the Interview MVP, the implementation should demonstrate:
+
+* A simple timeline of meaningful memories.
+* Manual review, editing, and deletion of memories.
+* Natural recall of relevant memories during conversations.
+* User control over timeline visibility and memory management.
+
+Future versions may introduce richer categorization, life milestones, relationship timelines, multimedia memories, and collaborative memories with the Trusted Circle while maintaining user privacy and control.
+
+# CJ-208 – Daily Reflection
+
+## Objective
+
+Enable AI SAHELI to encourage meaningful reflection on experiences, progress, and personal growth, helping strengthen both the user's self-awareness and the long-term companion relationship.
+
+---
+
+## Primary Actors
+
+* User
+* AI Companion
+
+---
+
+## Supporting Actors
+
+* Memory Engine
+* Conversation Engine
+
+---
+
+## Preconditions
+
+* Meaningful memories and experiences have accumulated over time.
+* Reflection preferences and privacy settings are respected.
+* The companion identifies an appropriate opportunity for reflection.
+
+---
+
+## Journey Triggers
+
+Reflection may occur when:
+
+* A meaningful milestone has been reached.
+* A significant period of time has passed.
+* The user chooses to review personal progress.
+* The companion identifies an appropriate opportunity to encourage reflection.
+
+---
+
+## High-Level Flow
+
+1. The companion identifies a meaningful experience or period for reflection.
+2. The companion invites the user into a natural reflective conversation.
+3. The user shares thoughts, insights, or chooses not to engage.
+4. The companion acknowledges progress and encourages continued growth.
+5. Any meaningful insights are handled according to the user's memory preferences.
+
+---
+
+## Success Criteria
+
+The journey is successful when:
+
+* Reflection feels natural rather than instructional.
+* The companion encourages personal growth without judgement.
+* Users remain free to participate or decline.
+* Reflection strengthens the long-term relationship.
+* The experience feels supportive, encouraging, and meaningful.
+
+---
+
+## Reflection Behaviours
+
+The companion should:
+
+* Celebrate meaningful progress.
+* Encourage thoughtful self-reflection.
+* Recognize personal growth over time.
+* Respect the user's willingness to reflect.
+* Focus on learning and encouragement rather than performance or productivity.
+
+Reflection should encourage personal growth rather than simply summarizing past events.
+
+---
+
+## Post Conditions
+
+* The user gains greater awareness of their experiences and progress.
+* The companion develops a richer understanding of the user's values, goals, and growth.
+* The relationship continues to strengthen through shared reflection.
+
+---
+
+## MVP Notes
+
+For the Interview MVP, the implementation should demonstrate:
+
+* Simple milestone-based reflection.
+* Natural conversational prompts.
+* Recognition of meaningful progress.
+* Optional participation in reflection.
+
+Future versions may introduce richer life reviews, long-term growth insights, goal reflection, wellbeing reflection, trusted circle reflections, and adaptive coaching while maintaining user privacy and control.
+
+# CJ-209 – Conversation Continuity
+
+## Objective
+
+Enable AI SAHELI to naturally continue meaningful conversations across time, helping users feel that the relationship continues seamlessly without requiring them to restart or repeat important context.
+
+---
+
+## Primary Actors
+
+* User
+* AI Companion
+
+---
+
+## Supporting Actors
+
+* Conversation Engine
+* Memory Engine
+* Context Engine
+
+---
+
+## Preconditions
+
+* Previous meaningful conversations or memories exist.
+* The companion has permission to use remembered information according to the user's privacy and memory preferences.
+* A new interaction begins after a period of time.
+
+---
+
+## Journey Triggers
+
+Conversation continuity may occur when:
+
+* The user returns after a short or long absence.
+* A previous conversation becomes relevant again.
+* A meaningful follow-up naturally fits the current interaction.
+* The user resumes an ongoing topic or life event.
+
+---
+
+## High-Level Flow
+
+1. The user starts or resumes a conversation.
+2. The companion identifies any relevant previous conversations or meaningful memories.
+3. The companion naturally reconnects the conversation where appropriate.
+4. The conversation continues based on the user's current interests and responses.
+5. The companion allows the discussion to evolve naturally without forcing previous topics.
+
+---
+
+## Success Criteria
+
+The journey is successful when:
+
+* Users do not feel they are starting over with each conversation.
+* Relevant previous discussions are recalled naturally.
+* The companion avoids asking users to repeat information it already understands.
+* Previous topics are revisited only when they add value to the current conversation.
+* Conversation continuity strengthens the long-term relationship.
+
+---
+
+## Conversation Continuity Behaviours
+
+The companion should:
+
+* Reconnect naturally with meaningful previous conversations.
+* Prioritize the user's current situation over historical discussions.
+* Avoid forcing unrelated or outdated topics into new conversations.
+* Respect the user's choice to continue, change, or end a topic.
+* Maintain continuity while allowing conversations to evolve naturally.
+
+The companion should resume the relationship rather than simply resume a previous conversation.
+
+---
+
+## Post Conditions
+
+* The conversation continues naturally with appropriate continuity.
+* The relationship feels ongoing rather than session-based.
+* Future interactions continue to benefit from meaningful continuity while respecting user privacy and preferences.
+
+---
+
+## MVP Notes
+
+For the Interview MVP, the implementation should demonstrate:
+
+* Natural follow-up to meaningful previous conversations.
+* Seamless continuation of long-running topics.
+* Relevant recall of important memories without requiring user repetition.
+* Respectful transition when the user chooses a new direction.
+
+Future versions may introduce richer long-term continuity, cross-device conversations, multimodal continuity, trusted circle continuity, and adaptive relationship-aware follow-ups while maintaining user control and privacy.
+
+# CJ-210 – Respecting Personal Space
+
+## Objective
+
+Enable AI SAHELI to respect the user's attention, boundaries, and personal space by engaging thoughtfully, avoiding unnecessary interruptions, and recognizing when remaining silent is the most supportive response.
+
+---
+
+## Primary Actors
+
+* User
+* AI Companion
+
+---
+
+## Supporting Actors
+
+* Proactive Planning Engine
+* Conversation Engine
+* Situational Reasoning & Decision Engine
+
+---
+
+## Preconditions
+
+* A trusted companion relationship has been established.
+* User preferences for notifications, proactive support, and privacy have been configured.
+* The companion has determined that respecting the user's space is appropriate.
+
+---
+
+## Journey Triggers
+
+Respect for personal space should be considered when:
+
+* The companion evaluates whether to initiate an interaction.
+* The user ignores or declines proactive support.
+* The user is likely to be busy, unavailable, or focused.
+* User preferences indicate reduced interaction.
+* The companion determines that remaining silent is more appropriate than interrupting.
+
+---
+
+## High-Level Flow
+
+1. The companion considers a potential interaction.
+2. The companion evaluates whether engagement is appropriate.
+3. If engagement would not provide meaningful value, the companion respectfully remains silent.
+4. If engagement is appropriate, the companion interacts in a non-intrusive manner.
+5. The companion continues adapting to the user's preferences over time.
+
+---
+
+## Success Criteria
+
+The journey is successful when:
+
+* Users feel supported without feeling interrupted.
+* The companion respects personal boundaries and attention.
+* Ignored or declined interactions are respected.
+* The companion avoids unnecessary engagement.
+* Trust is strengthened through thoughtful restraint.
+
+---
+
+## Personal Space Behaviours
+
+The companion should:
+
+* Respect the user's attention and boundaries.
+* Avoid competing for the user's time.
+* Learn from user interaction preferences.
+* Adapt the timing and frequency of engagement over time.
+* Recognize that silence can sometimes be the most supportive response.
+
+Respect is demonstrated not only by knowing when to engage, but also by knowing when not to.
+
+---
+
+## Post Conditions
+
+* The relationship continues with mutual trust and respect.
+* Future interactions better reflect the user's preferences and boundaries.
+* The companion maintains a supportive presence without becoming intrusive.
+
+---
+
+## MVP Notes
+
+For the Interview MVP, the implementation should demonstrate:
+
+* User-configurable proactive interaction preferences.
+* Respectful handling of ignored or declined proactive suggestions.
+* Reduced interruptions when engagement is unlikely to be helpful.
+* Simple controls for notification frequency and quiet periods.
+
+Future versions may introduce adaptive interruption policies, attention-aware engagement, wellbeing-sensitive quiet periods, trusted circle exceptions for emergencies, and richer personalization while maintaining user control and privacy.
