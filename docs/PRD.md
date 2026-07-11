@@ -22,6 +22,11 @@ The platform is designed to operate seamlessly across smartphones and smartwatch
 
 AI SAHELI is designed as an extensible AI platform that can integrate new capabilities, external services, healthcare devices, smart home technologies, vehicles, and future AI innovations while maintaining a simple, intuitive, and trustworthy user experience.
 
+## MVP Summary
+
+A concise one-page MVP specification describing scope, acceptance criteria, KPIs, and the validation plan is maintained separately so it can iterate quickly. See [docs/MVP_SPEC.md](docs/MVP_SPEC.md) for the full MVP plan (wake-word, core Hindi intents, emergency flow, Accessibility integration, KPIs, and test scripts).
+
+
 
 # Chapter 3 - Problem Statement
 
