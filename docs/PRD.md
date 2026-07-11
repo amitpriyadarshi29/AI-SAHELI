@@ -1,78 +1,77 @@
-# Vision
+# Chapter 1 – Vision
 
 AI SAHELI exists to become a trusted AI companion that is always available to support, protect, and empower people in their daily lives.
 
 Our vision is to build an AI-first companion that users instinctively turn to for help—whether they need information, assistance with everyday tasks, emotional reassurance, or immediate support during an emergency. AI SAHELI should provide peace of mind not only to its users but also to their families, knowing that elderly parents, people living alone, or individuals with health conditions always have an intelligent companion by their side.
 
-Beyond safety and wellbeing, AI SAHELI aims to simplify everyday life through natural voice conversations. Instead of switching between multiple applications, users can interact with a single intelligent assistant that understands intent, completes tasks across different apps, manages information, automates routine activities, and helps make better decisions.
+Beyond providing assistance, AI SAHELI aims to build trusted, long-term relationships that help people live safer, simpler, and more confident lives. The companion should naturally understand users, support them through everyday experiences, and grow alongside them while always respecting their privacy, preferences, and personal boundaries.
 
-AI SAHELI is designed as a cross-device experience, beginning with smartphones and smartwatches, ensuring that intelligent assistance is always within reach. As the platform evolves, it will expand to additional devices and environments while providing a consistent, seamless user experience.
+Every capability developed for AI SAHELI must strengthen its role as a trustworthy companion by following the principles of trust, privacy, transparency, reliability, safety, and user control. The long-term vision is to create a scalable AI ecosystem where new capabilities, services, and specialized companions can be introduced while preserving the simple, intuitive, and trustworthy experience that users rely on every day.
 
-Every capability developed for AI SAHELI must strengthen its role as a trustworthy companion by following the principles of trust, privacy, transparency, reliability, safety, and user control. The long-term vision is to create a scalable AI ecosystem where new capabilities, services, and specialized assistants can be integrated without changing the simple and intuitive experience that users rely on every day.
-
-# Product Overview
+# Chapter 2 – Product Overview
 
 AI SAHELI is a voice-first, AI-powered companion designed to provide intelligent assistance, enhance personal safety, and simplify everyday life through natural conversations.
 
-Unlike traditional voice assistants that focus primarily on answering questions or executing isolated commands, AI SAHELI is designed to build an ongoing relationship with its users by understanding their preferences, routines, context, and evolving needs. It acts as a trusted companion that can assist with daily activities, monitor wellbeing, support users during emergencies, and help families stay connected with loved ones.
+Unlike traditional voice assistants that focus primarily on answering questions or executing isolated commands, AI SAHELI is designed to build an ongoing relationship with its users. It learns from user interactions over time to provide more relevant, personalized, and trustworthy support while always respecting user privacy, preferences, and control.
 
-The platform combines conversational AI with intelligent automation to enable users to interact naturally while AI SAHELI performs tasks across multiple applications and services. Users should be able to communicate with AI SAHELI as they would with a trusted human assistant, without needing to understand which application or service performs a particular task.
+The platform combines conversational AI with intelligent automation, enabling users to interact naturally while AI SAHELI coordinates tasks across multiple applications and services. Users communicate with a single trusted companion rather than needing to understand which application or service performs a particular task.
 
 AI SAHELI is intended for people of all ages and backgrounds, with particular emphasis on supporting elderly individuals, people living alone, busy professionals, families, and users who benefit from proactive assistance and continuous companionship.
 
-The platform is designed to operate seamlessly across smartphones and smartwatches from its initial release, with a long-term vision of expanding to additional connected devices and environments. Regardless of the device being used, users should experience the same trusted companion with consistent behaviour, memory, and personality.
+The platform is designed to operate seamlessly across smartphones and smartwatches in its initial release, with a long-term vision of expanding to additional connected devices and environments. Regardless of the device being used, users experience the same trusted companion with consistent behaviour, memory, and personality.
 
-AI SAHELI is built as an extensible AI platform capable of integrating new capabilities, external services, healthcare devices, smart home technologies, vehicles, and future AI technologies. This ensures that the product continues to evolve while maintaining a simple, intuitive, and trustworthy experience for its users.
+AI SAHELI is designed as an extensible AI platform that can integrate new capabilities, external services, healthcare devices, smart home technologies, vehicles, and future AI innovations while maintaining a simple, intuitive, and trustworthy user experience.
 
-# Problem Statement
 
-Modern life depends on an increasing number of digital applications and services. While each application solves a specific problem, users are required to constantly switch between them, learn different interfaces, remember where information is stored, and manually coordinate tasks across multiple platforms. This fragmented experience creates unnecessary complexity and reduces productivity.
+# Chapter 3 - Problem Statement
 
-Recent advances in artificial intelligence have made conversational interfaces more capable, but most AI assistants remain reactive. They answer questions and perform isolated tasks, yet they rarely understand the user's long-term context, routines, priorities, or wellbeing. As a result, users still carry the burden of managing their daily lives rather than being supported by a truly intelligent companion.
+Modern life depends on an increasing number of digital applications and services. While each application solves a specific problem, users are required to switch between multiple interfaces, remember where information is stored, and manually coordinate tasks across different platforms. This fragmented experience creates unnecessary complexity and increases the effort required to complete everyday activities.
 
-At the same time, millions of people—including elderly individuals, people living alone, those managing health conditions, and busy families—face growing challenges in staying connected and feeling safe. Family members often worry about the wellbeing of loved ones when they are apart, while existing digital assistants provide limited support during situations where timely assistance or proactive intervention could make a meaningful difference.
+Recent advances in artificial intelligence have made conversational interfaces significantly more capable. However, most AI assistants remain reactive, focusing on answering questions or performing isolated tasks rather than understanding the user's long-term context, routines, priorities, and wellbeing. As a result, users continue to manage technology instead of technology meaningfully supporting them.
 
-There is a need for an AI companion that goes beyond answering questions or executing commands. Users need a trusted system that understands them over time, simplifies interactions with technology, provides intelligent assistance across everyday activities, and supports personal safety and wellbeing while respecting privacy and user control.
+At the same time, millions of people—including elderly individuals, people living alone, those managing health conditions, and busy families—face growing challenges in staying connected and feeling safe. Family members often worry about the wellbeing of loved ones when they are apart, while existing digital assistants provide limited support in situations where timely assistance or thoughtful intervention could make a meaningful difference.
 
-AI SAHELI addresses these challenges by combining conversational AI, intelligent automation, contextual understanding, and cross-device accessibility into a single trusted companion that can assist users throughout their daily lives while providing reassurance to both users and their families.
+There is a need for an AI companion that goes beyond answering questions or executing commands. Users need a trusted companion that understands them over time, simplifies their interactions with technology, supports everyday life, and enhances personal safety and wellbeing while respecting privacy and user control.
 
-# Goals
+AI SAHELI addresses these challenges by providing a single trusted companion that helps users navigate everyday life more naturally, confidently, and safely while offering reassurance to both users and their families.
 
-The primary goal of AI SAHELI is to become a trusted AI companion that supports users throughout their daily lives by providing intelligent assistance, enhancing personal safety, simplifying technology, and delivering meaningful peace of mind to both users and their families.
+# Chapter 4 - Goals
+
+The primary goal of AI SAHELI is to become a trusted AI companion that supports users throughout their daily lives by providing intelligent assistance, enhancing personal safety, simplifying technology, and delivering peace of mind to both users and their families.
 
 To achieve this vision, AI SAHELI will pursue the following strategic goals:
 
 ## 1. Become a Trusted AI Companion
 
-Develop an AI companion that users naturally rely on for everyday assistance, guidance, and support through intuitive, natural conversations.
+Become the companion that users naturally rely on for everyday assistance, guidance, and support through intuitive, natural conversations.
 
 ## 2. Enhance Safety and Wellbeing
 
-Provide proactive assistance that promotes personal safety and wellbeing while respecting user privacy, preferences, and control. Enable users and their designated family members or caregivers to feel more confident that support is available when needed.
+Enhance personal safety and wellbeing by providing timely, respectful, and proactive support while ensuring users remain in control of their privacy and interactions.
 
 ## 3. Simplify Everyday Technology
 
-Reduce the complexity of interacting with digital services by allowing users to accomplish tasks through natural voice conversations instead of navigating multiple applications and interfaces.
+Simplify digital experiences by enabling users to accomplish everyday tasks through natural conversations instead of navigating multiple applications and interfaces.
 
 ## 4. Deliver Personalized Assistance
 
-Continuously understand user preferences, routines, and context to provide increasingly relevant, helpful, and personalized experiences over time.
+Provide increasingly relevant and personalized support by learning from user interactions over time while respecting user preferences and privacy.
 
-## 5. Provide a Seamless Cross-Device Experience
+## 5. Deliver a Seamless Cross-Device Experience
 
-Ensure users can interact with AI SAHELI consistently across smartphones, smartwatches, and future supported devices without losing context, memory, or continuity.
+Provide a consistent companion experience across smartphones, smartwatches, and future supported devices while preserving continuity, memory, and trust.
 
-## 6. Build User Trust
+## 6. Build and Maintain User Trust
 
-Earn and maintain user trust by prioritizing privacy, transparency, reliability, security, and giving users full control over how AI SAHELI accesses, stores, and uses their information.
+Earn and maintain user trust through responsible AI, transparency, reliability, security, and meaningful user control.
 
 ## 7. Enable a Scalable AI Ecosystem
 
-Build a flexible platform capable of integrating future AI capabilities, third-party services, healthcare technologies, smart home systems, vehicles, and other connected environments while maintaining a consistent user experience.
+Enable the platform to evolve by integrating future AI capabilities, connected services, and emerging technologies while preserving a simple, consistent, and trustworthy user experience.
 
-# Non-Goals
+# Chapter 5 - Non-Goals
 
-To maintain a clear product vision and ensure long-term focus, AI SAHELI deliberately excludes certain responsibilities and capabilities from its intended scope. The following are explicit non-goals of the product.
+AI SAHELI deliberately excludes certain responsibilities and capabilities to maintain a clear product vision and long-term focus. The following are explicit non-goals of the product.
 
 ## 1. Replace Human Relationships
 
@@ -88,7 +87,7 @@ AI SAHELI will not make significant personal, financial, legal, or medical decis
 
 ## 4. Operate Without User Consent
 
-AI SAHELI will not monitor, collect, share, or act upon personal information beyond the permissions and preferences explicitly configured by the user. Privacy, transparency, and user control remain fundamental principles of the platform.
+AI SAHELI will not monitor, collect, share, or use personal information beyond the permissions and preferences explicitly configured by the user. Privacy, transparency, and user control remain fundamental principles of the platform.
 
 ## 5. Automate Every Aspect of Daily Life
 
@@ -103,20 +102,26 @@ AI SAHELI is not intended to be limited to a specific mobile application, smartw
 AI SAHELI will not adopt new AI technologies or integrations simply because they are available. Every capability introduced must provide meaningful value, strengthen the trusted companion experience, and align with the product vision and guiding principles.
 
 
+# Chapter 6 – Personas & Actors
 
-# Personas & Actors
+## 6.1 Introduction
 
-AI SAHELI is designed as an AI Companion Ecosystem that supports individuals while strengthening the trusted relationships between people who care for one another. Unlike traditional applications that primarily focus on a single user, AI SAHELI recognises that many meaningful interactions involve family members, caregivers, friends, healthcare professionals, and connected services.
+AI SAHELI is designed as an AI Companion Ecosystem that supports individuals while strengthening trusted relationships between the people who care for one another. The ecosystem extends beyond a single user to include family members, caregivers, healthcare professionals, emergency services, and connected systems that may participate in supporting the user's daily life.
 
-To reflect this ecosystem, AI SAHELI distinguishes between **Actors**, who participate in the ecosystem, and **Personas**, which describe the needs, behaviours, and goals of the primary users.
+To clearly define these participants, AI SAHELI distinguishes between **Actors** and **Personas**:
+
+* **Actors** represent the people, organisations, systems, and services that participate in the AI SAHELI ecosystem.
+* **Personas** represent the primary user groups whose needs, behaviours, and goals guide product design.
+
+This distinction provides a clear foundation for defining user journeys, permissions, interactions, and responsibilities throughout the remainder of the PRD.
 
 ---
 
-# Actors
+# 6.2 Actors
 
 ## 1. Primary User
 
-The Primary User is the owner of an AI SAHELI companion. Every Primary User has their own private AI SAHELI that learns their preferences, routines, context, and permissions.
+The Primary User owns a personal AI SAHELI companion. Every Primary User has complete ownership of their companion, including privacy settings, permissions, Trusted Circle membership, and data-sharing preferences.
 
 Examples include:
 
@@ -127,8 +132,6 @@ Examples include:
 * Students
 * Travellers
 * People with accessibility needs
-
-Each Primary User has complete control over their own AI SAHELI, including privacy settings, permissions, Trusted Circle membership, and data sharing preferences.
 
 ---
 
@@ -146,7 +149,7 @@ Examples include:
 * Caregiver
 * Neighbour
 
-Every Trusted Circle Member remains an independent user with their own AI SAHELI. Membership within a Trusted Circle never grants unrestricted access to another user's information.
+Every Trusted Circle Member remains an independent AI SAHELI user. Trusted Circle membership never grants unrestricted access to another user's information.
 
 ---
 
@@ -162,13 +165,13 @@ Examples include:
 * Clinic
 * Physiotherapist
 
-Interactions with healthcare participants will always require explicit user consent and comply with applicable privacy and healthcare regulations.
+All healthcare interactions require explicit user consent and must comply with applicable privacy and healthcare regulations.
 
 ---
 
 ## 4. Emergency Services (Future)
 
-Emergency services may receive information from AI SAHELI only when explicitly configured by the user and supported by local regulations and technical capabilities.
+Emergency Services may receive information from AI SAHELI only when explicitly configured by the user and supported by local regulations and technical capabilities.
 
 Examples include:
 
@@ -180,7 +183,7 @@ Examples include:
 
 ## 5. Connected Systems (Future)
 
-AI SAHELI may integrate with intelligent devices and external services that enhance the overall companion experience.
+Connected Systems include intelligent devices and external services that extend the AI SAHELI ecosystem.
 
 Examples include:
 
@@ -193,7 +196,7 @@ Examples include:
 
 ---
 
-# Primary User Personas
+# 6.3 Primary User Personas
 
 The following representative personas capture the primary user groups that AI SAHELI is designed to support.
 
@@ -216,18 +219,13 @@ The following representative personas capture the primary user groups that AI SA
 * Technology complexity
 * Family concern about wellbeing
 
-### AI SAHELI Value
+### Companion Needs
 
-* Daily AI companion
-* Voice-first interaction
-* Wellbeing assistance
-* Trusted Circle support
+* Daily companionship
+* Simple voice interaction
+* Wellbeing support
+* Trusted Circle connectivity
 * Emergency assistance
-
-### Typical Devices
-
-* Smartphone
-* Smartwatch
 
 ---
 
@@ -248,19 +246,12 @@ The following representative personas capture the primary user groups that AI SA
 * Information overload
 * Frequent context switching
 
-### AI SAHELI Value
+### Companion Needs
 
-* Voice-first assistant
-* Intelligent automation
+* Intelligent organisation
+* Natural task delegation
 * Personal planning
-* Cross-device continuity
-
-### Typical Devices
-
-* Smartphone
-* Smartwatch
-* Earbuds
-* Vehicle
+* Context continuity across activities
 
 ---
 
@@ -280,17 +271,12 @@ The following representative personas capture the primary user groups that AI SA
 * Constant coordination
 * Concern for loved ones
 
-### AI SAHELI Value
+### Companion Needs
 
+* Family coordination
 * Shared planning
-* Trusted Circle coordination
-* Family reminders
-* Emergency notifications
-
-### Typical Devices
-
-* Smartphone
-* Smartwatch
+* Trusted Circle collaboration
+* Family wellbeing support
 
 ---
 
@@ -308,18 +294,12 @@ The following representative personas capture the primary user groups that AI SA
 * Poor time management
 * Information overload
 
-### AI SAHELI Value
+### Companion Needs
 
-* Learning assistance
-* Task planning
-* Study support
-* Voice interaction
-
-### Typical Devices
-
-* Smartphone
-* Earbuds
-* Smartwatch
+* Learning support
+* Study planning
+* Focus assistance
+* Personal organisation
 
 ---
 
@@ -337,18 +317,12 @@ The following representative personas capture the primary user groups that AI SA
 * Travel logistics
 * Communication challenges
 
-### AI SAHELI Value
+### Companion Needs
 
-* Intelligent travel assistance
+* Travel guidance
 * Navigation support
 * Trusted Circle updates
 * Emergency assistance
-
-### Typical Devices
-
-* Smartphone
-* Smartwatch
-* Vehicle
 
 ---
 
@@ -366,18 +340,12 @@ The following representative personas capture the primary user groups that AI SA
 * Complex interfaces
 * Difficulty requesting help
 
-### AI SAHELI Value
+### Companion Needs
 
-* Voice-first interaction
-* Personal assistance
+* Accessible interaction
+* Everyday assistance
 * Trusted Circle support
 * Emergency assistance
-
-### Typical Devices
-
-* Smartphone
-* Smartwatch
-* Accessibility devices
 
 ---
 
@@ -396,213 +364,250 @@ The following representative personas capture the primary user groups that AI SA
 * Limited visibility during emergencies
 * Anxiety about wellbeing
 
-### AI SAHELI Value
+### Companion Needs
 
+* Wellbeing visibility
 * Trusted Circle participation
-* Wellbeing notifications
 * Emergency coordination
-* Shared reminders (where authorised)
-
-### Typical Devices
-
-* Smartphone
-* Smartwatch
+* Shared care activities
 
 ---
 
-# Persona Principles
+# 6.4 Persona Principles
 
 AI SAHELI is designed around the following principles:
 
-* Every person owns and controls their own AI SAHELI.
-* Trust is established through explicit consent, not assumption.
+* Every person owns and controls their own AI SAHELI companion.
+* Trust is established through explicit consent, never by assumption.
 * Trusted Circle relationships are configurable and permission-based.
 * Users remain in control of what information is shared and with whom.
 * The same individual may fulfil multiple personas throughout different stages of life.
 * Personas guide product design but never restrict product capabilities.
 
-
 # Chapter 7 – Companion Journeys
 
-## 7.1 Introduction
+Companion Journeys define how users experience AI SAHELI throughout the lifecycle of their relationship with the companion. Rather than describing technical implementation, they describe the behaviours, interactions, and experiences that enable AI SAHELI to become a trusted companion instead of a traditional AI assistant.
 
-Companion Journeys describe how users interact with AI SAHELI throughout different stages of their lives and daily routines. Unlike traditional user journeys that focus primarily on screen navigation or application workflows, Companion Journeys represent the complete interaction between the user, AI SAHELI, trusted individuals, connected devices, and external services.
+---
 
-Each Companion Journey is designed to reinforce AI SAHELI's role as a trusted AI companion by delivering meaningful assistance while respecting user privacy, consent, and control.
+## 7.1 Companion Journey Introduction
 
-Companion Journeys provide the primary reference for defining functional requirements, user experience flows, system architecture, APIs, and implementation details throughout the remainder of the project.
+Companion Journeys describe the expected user experience throughout the relationship between a user and AI SAHELI. They capture how the companion should behave, respond, learn, and evolve over time to deliver a trusted, intelligent, and human-centred experience.
 
-To maintain consistency and traceability, every journey is assigned a unique Companion Journey Identifier (CJ-ID). These identifiers are referenced across the PRD, HLD, LLD, implementation, testing, and demonstration scenarios.
+The journeys focus on **what users experience** rather than **how the system is implemented**. Together, they define the functional behaviour of AI SAHELI and provide the foundation for subsequent architecture, design, and implementation activities.
 
-Companion Journeys are organised into the following Journey Families:
+Companion Journeys are organised into **Journey Families**, where each family represents a major stage or aspect of the relationship between the user and AI SAHELI. Individual Companion Journeys within each family describe specific experiences that collectively build trust, strengthen long-term engagement, and support everyday life.
 
-* Getting Started
-* Everyday Companion
-* Trusted Circle
-* Safety & Emergency
-* Personal Assistant
-* Health & Wellbeing
-* Cross-Device Experience
-* AI Learning & Growth
-* Privacy & Trust
+Unless explicitly stated otherwise, every Companion Journey follows these principles:
 
-Each Journey Family groups related user interactions while allowing the platform to evolve without changing the overall product structure.
+* AI SAHELI behaves as a trusted companion, not merely an AI assistant.
+* Human users always remain in control.
+* Privacy, transparency, and user consent are respected at every stage.
+* AI SAHELI recommends and assists but never makes autonomous life-impacting decisions on behalf of the user.
+* Trust is developed progressively through meaningful interactions.
+* Every interaction should strengthen the long-term relationship between the user and their AI companion.
+
+Each Companion Journey contains:
+
+* Objective
+* Primary Actors
+* Journey Triggers
+* Success Criteria
+* Journey Principles
+* High-Level Flow
+* Post Conditions
 
 
 ## 7.2 Journey Family 1 – Getting Started
 
-### CJ-001 – First-Time Onboarding
+### Purpose
+
+Journey Family 1 describes how a user begins and develops a trusted relationship with AI SAHELI. Rather than focusing on features, these journeys establish the foundation for long-term companionship by gradually introducing AI SAHELI, building user confidence, and enabling trust through transparent, user-controlled interactions.
+
+The journeys in this family ensure that users understand AI SAHELI's role, remain in control of their information, and can progressively personalise their companion according to their own preferences and comfort level.
+
+### Journey Objectives
+
+Journey Family 1 aims to:
+
+* Introduce AI SAHELI as a trusted AI companion.
+* Build trust through gradual, transparent interactions.
+* Establish user ownership and control from the beginning.
+* Enable progressive personalisation based on user consent.
+* Introduce the Trusted Circle when appropriate.
+* Create the foundation for long-term companionship.
+
+### Included Companion Journeys
+
+| Journey ID | Journey                         |
+| ---------- | ------------------------------- |
+| **CJ-001** | First-Time Onboarding           |
+| **CJ-002** | Progressive Companion Learning  |
+| **CJ-003** | Companion Presence              |
+| **CJ-004** | Invite Trusted Circle Member    |
+| **CJ-005** | Building a Trusted Relationship |
+| **CJ-006** | Managing Trust Preferences      |
+
+### Journey Family Success Criteria
+
+Journey Family 1 is considered successful when:
+
+* Users understand AI SAHELI's role as a trusted companion.
+* Users feel confident interacting naturally with AI SAHELI.
+* Personalisation begins with explicit user consent.
+* Trust develops progressively through meaningful interactions.
+* Users understand and manage their privacy and trust preferences.
+* Users can establish Trusted Circle relationships when they choose.
+* The relationship is ready to evolve into everyday companionship.
+
+### Relationship Outcome
+
+At the completion of Journey Family 1, AI SAHELI has established the foundations of a trusted relationship. The user understands the companion's purpose, retains control over personal information and permissions, and is ready to transition into everyday interactions described in Journey Family 2.
+
+
+### 7.2.1 CJ-001 – First-Time Onboarding
 
 **Companion Journey ID:** CJ-001
 
-#### Objective
+### Objective
 
 Establish the first trusted relationship between the user and AI SAHELI while collecting only the minimum information required to deliver a safe, personalised, and privacy-respecting companion experience.
 
-#### Primary Actor
+### Primary Actor
 
 * Primary User
 
-#### Supporting Actors
+### Supporting Actor
 
 * AI SAHELI
-* Authentication Service
-* Device Services
-* Notification Service
 
-#### Preconditions
+### Preconditions
 
-* AI SAHELI application is installed.
-* User has a compatible device.
-* Internet connectivity is available.
+* The user has installed AI SAHELI and is ready to begin the onboarding journey.
 
-#### Success Criteria
+### Success Criteria
 
 The user:
 
 * Successfully creates or signs in to an AI SAHELI account.
 * Completes the essential companion setup.
 * Understands AI SAHELI's purpose and privacy principles.
-* Grants only the permissions required for the selected features.
-* Begins the first natural conversation with AI SAHELI.
+* Grants the permissions they choose to enable.
+* Begins their first natural conversation with AI SAHELI.
 * Is ready to continue using AI SAHELI immediately.
 
-#### Journey Principles
+### Journey Principles
 
 * Companion before configuration.
-* Progressive trust.
-* Privacy by design.
-* Human always in control.
-* Minimal friction.
-* Continue learning over time.
+* Progressive Trust.
+* Privacy by Design.
+* Human Always in Control.
+* Minimal Friction.
+* Continue Learning Over Time.
 
-#### High-Level Flow
+### High-Level Flow
 
-1. Welcome by AI SAHELI.
-2. Brief conversational introduction.
-3. Secure account creation or sign-in.
-4. Essential profile setup.
-5. Configure core permissions.
-6. Optional smartwatch pairing.
-7. First conversation.
-8. AI SAHELI becomes available for everyday use.
+1. AI SAHELI welcomes the user.
+2. A brief conversational introduction explains AI SAHELI's purpose.
+3. The user creates an account or signs in.
+4. Essential companion profile information is collected.
+5. Core permissions are requested.
+6. Optional smartwatch pairing is offered.
+7. The user has their first conversation with AI SAHELI.
+8. AI SAHELI becomes available for everyday companionship.
 
-#### Post Conditions
+### Post Conditions
 
 * AI SAHELI is operational.
-* The user can immediately interact with their companion.
-* Additional personalisation is deferred to future conversations through Progressive Companion Learning.
+* The user can immediately begin interacting with their companion.
+* Additional personalisation continues naturally through **CJ-002 – Progressive Companion Learning**.
 
-```
-```
-### CJ-002 – Progressive Companion Learning
+
+### 7.2.2 CJ-002 – Progressive Companion Learning
 
 **Companion Journey ID:** CJ-002
 
-#### Objective
+### Objective
 
 Enable AI SAHELI to gradually build a trusted relationship with the user by learning preferences, routines, and personalisation information over time through natural conversations and contextual interactions.
 
-#### Primary Actor
+### Primary Actor
 
 * Primary User
 
-#### Supporting Actors
+### Supporting Actor
 
 * AI SAHELI
 
-#### Preconditions
+### Preconditions
 
-* CJ-001 (First-Time Onboarding) has been completed.
+* CJ-001 – First-Time Onboarding has been completed.
 * AI SAHELI is actively being used.
 
-#### Success Criteria
+### Success Criteria
 
-* AI SAHELI continuously improves its understanding of the user.
+* AI SAHELI progressively develops a richer understanding of the user's preferences, routines, and context.
 * Personalisation occurs gradually rather than during onboarding.
 * Additional permissions are requested only when they provide clear value.
 * The user remains fully informed and in control of every permission and preference.
 
-#### Journey Principles
+### Journey Principles
 
-* Progressive Trust
-* Just-In-Time Personalisation
-* Privacy by Design
-* Human Always in Control
-* Learn Through Conversation
-* Never Interrupt Without Purpose
+* Progressive Trust.
+* Just-In-Time Personalisation.
+* Privacy by Design.
+* Human Always in Control.
+* Learn Through Conversation.
+* Never Interrupt Without Purpose.
 
-#### Typical Examples
+### Typical Examples
 
 AI SAHELI may naturally ask:
 
 * "Would you like me to remember this preference?"
 * "Would it help if I reminded you about this every weekday?"
-* "Would you like to add someone to your Trusted Circle?"
-* "Would you like me to connect to your calendar so I can help manage your schedule?"
-* "I notice you often leave home around this time. Would you like traffic updates before you leave?"
+* "Would you like me to connect to your calendar so I can better manage your schedule?"
 
-Each interaction should be relevant to the current context and provide an immediate, understandable benefit to the user.
+Every interaction should be relevant to the current context and provide an immediate, understandable benefit to the user.
 
-#### Post Conditions
+### Post Conditions
 
 * AI SAHELI develops a progressively richer understanding of the user's preferences and routines.
 * Trust grows naturally through continued interaction.
 * Users experience increasing personalisation without feeling overwhelmed by configuration or permission requests.
 
 
-### CJ-003 – Companion Presence
+### 7.2.3 CJ-003 – Companion Presence
 
 **Companion Journey ID:** CJ-003
 
-#### Objective
+### Objective
 
-Enable users to extend AI SAHELI naturally across supported devices, allowing the same trusted companion to remain continuously available regardless of where or how the user interacts.
+Enable users to experience the same trusted AI SAHELI companion seamlessly across supported devices, ensuring continuity of identity, context, and conversations regardless of where interactions occur.
 
-#### Primary Actor
+### Primary Actor
 
 * Primary User
 
-#### Supporting Actors
+### Supporting Actors
 
 * AI SAHELI
-* Device Management Services
 * Connected Devices
 
-#### Preconditions
+### Preconditions
 
-* CJ-001 (First-Time Onboarding) has been completed.
+* CJ-001 – First-Time Onboarding has been completed.
 * AI SAHELI is operational on at least one device.
 * A compatible secondary device is available.
 
-#### Success Criteria
+### Success Criteria
 
 * AI SAHELI becomes available on the newly connected device.
 * Conversations, context, preferences, and companion identity remain consistent.
-* Users experience a seamless transition between devices without creating a separate companion.
-* Device-specific capabilities are automatically recognised and used where appropriate.
+* Users experience seamless transitions between devices without creating a separate companion.
+* AI SAHELI automatically adapts to the capabilities of each authorised device while maintaining a consistent companion experience.
 
-#### Journey Principles
+### Journey Principles
 
 * One Companion, Many Devices.
 * Consistent Identity.
@@ -610,318 +615,208 @@ Enable users to extend AI SAHELI naturally across supported devices, allowing th
 * Ambient Presence.
 * Human Always in Control.
 
-#### Typical Examples
+### Typical Examples
 
-* Continue a conversation from phone to smartwatch.
+* Continue a conversation from a phone to a smartwatch.
 * Receive reminders on the most appropriate available device.
-* Move from phone to vehicle without restarting the interaction.
+* Move from a phone to a vehicle without restarting the interaction.
 * Extend AI SAHELI to future supported devices while maintaining the same companion experience.
 
-#### Post Conditions
+### Post Conditions
 
 * AI SAHELI is available across all authorised devices.
 * The user experiences a single companion regardless of the device being used.
 * Future devices can join the companion ecosystem without changing the user's relationship with AI SAHELI.
 
-### CJ-004 – Invite Trusted Circle Member
+## 7.2.4 CJ-004 – Invite Trusted Circle Member
 
 **Companion Journey ID:** CJ-004
 
-#### Objective
+### Objective
 
-Enable the Primary User to establish the foundation of a trusted relationship by inviting another individual to join their Trusted Circle. The invitation creates a trusted relationship between two independent AI SAHELI users but does not automatically grant access to any personal information or permissions.
+Enable the Primary User to establish a trusted relationship by inviting another individual to join their Trusted Circle. The invitation creates a trusted relationship between two independent AI SAHELI users but does not automatically grant access to personal information or permissions.
 
-#### Primary Actor
+### Primary Actor
 
-* Primary User
+- Primary User
 
-#### Supporting Actors
+### Supporting Actors
 
-* AI SAHELI
-* Invited User
-* Invitation Service
+- AI SAHELI
+- Invited User
 
-#### Preconditions
+### Preconditions
 
-* CJ-001 (First-Time Onboarding) has been completed.
-* AI SAHELI is actively being used.
-* The invited individual can receive an AI SAHELI invitation.
+- CJ-001 – First-Time Onboarding has been completed.
+- AI SAHELI is actively being used.
+- The invited individual can receive an AI SAHELI invitation.
 
-#### Journey Triggers
+### Journey Triggers
 
-##### User-Initiated
+#### User-Initiated
 
-The journey may begin when the Primary User:
+The Primary User chooses to invite someone into their Trusted Circle through AI SAHELI or a relevant product feature.
 
-* Opens the Trusted Circle section and selects **Add Member**.
-* Asks AI SAHELI to invite someone.
-* Selects an "Invite to Trusted Circle" option from another feature.
+#### AI-Initiated
 
-##### AI-Initiated
+AI SAHELI may recommend creating a Trusted Circle when doing so provides clear value, for example:
 
-AI SAHELI may recommend creating a Trusted Circle when appropriate, for example:
+- The user has developed sufficient trust through continued use.
+- The user enables wellbeing or emergency-related features.
+- Family or caregiver collaboration could improve the companion experience.
 
-* The user has developed sufficient trust through continued use.
-* The user enables wellbeing or emergency-related features.
-* The user would benefit from connecting with family members or caregivers.
+All recommendations are optional. Users remain free to create or manage their Trusted Circle at any time.
 
-AI SAHELI recommendations are optional. Users remain free to create or manage their Trusted Circle at any time without waiting for a recommendation.
+### Success Criteria
 
-#### Success Criteria
+- An invitation is sent to the selected individual.
+- The invited individual receives the invitation.
+- The relationship type is identified.
+- Both individuals understand that accepting the invitation does not automatically share personal information or grant permissions.
+- The trusted relationship is established and is ready for progressive relationship discovery in **CJ-005 – Building a Trusted Relationship**.
 
-* An invitation is sent to the selected individual.
-* The invited individual receives the invitation.
-* The relationship type is identified.
-* Both individuals understand that accepting the invitation does not automatically share personal information or grant permissions.
-* The relationship proceeds to CJ-005 (Relationship Discovery).
+### Journey Principles
 
-#### Journey Principles
+- User First, AI Second.
+- Relationship Before Permission.
+- Mutual Consent.
+- Privacy by Design.
+- Human Always in Control.
+- Trust Through Transparency.
 
-* User First, AI Second.
-* Relationship Before Permission.
-* Mutual Consent.
-* Privacy by Design.
-* Human Always in Control.
-* Trust Through Transparency.
+### High-Level Flow
 
-#### High-Level Flow
-
-1. Journey is initiated by either the user or AI SAHELI.
-2. User selects the person to invite.
-3. User identifies the relationship type (e.g., spouse, parent, child, caregiver, friend).
+1. The journey is initiated by either the user or AI SAHELI.
+2. The user selects the individual to invite.
+3. The user identifies the relationship type (for example, spouse, parent, child, caregiver, or friend).
 4. AI SAHELI explains the purpose of the Trusted Circle.
-5. Invitation is sent.
-6. Invited individual accepts or declines the invitation.
-7. Accepted invitations continue to CJ-005 (Relationship Discovery).
+5. The invitation is sent.
+6. The invited individual accepts or declines the invitation.
+7. Accepted invitations continue to **CJ-005 – Building a Trusted Relationship**.
 
-#### Post Conditions
+### Post Conditions
 
-* A trusted relationship invitation has been completed.
-* If accepted, a Trusted Relationship is established.
-* No personal information has been shared.
-* No permissions have been granted.
-* Both users retain complete control over future relationship configuration.
+- A trusted relationship invitation has been completed.
+- If accepted, a trusted relationship is established.
+- No personal information has been shared.
+- No permissions have been granted.
+- Both users retain complete control over future relationship configuration.
 
-
-### CJ-005 – Building a Trusted Relationship
+## 7.2.5 CJ-005 – Building a Trusted Relationship
 
 **Companion Journey ID:** CJ-005
 
-#### Objective
+### Objective
 
-Enable AI SAHELI to gradually understand the nature of a trusted relationship so it can provide relevant, privacy-respecting recommendations while keeping each user's personal intelligence independent.
+Enable AI SAHELI to progressively understand the nature of a trusted relationship so it can provide more relevant, privacy-respecting assistance while keeping each user's personal intelligence independent.
 
-#### Primary Actor
+### Primary Actor
 
-* Primary User
+- Primary User
 
-#### Supporting Actors
+### Supporting Actors
 
-* AI SAHELI
-* Trusted Circle Member
+- AI SAHELI
+- Trusted Circle Member
 
-#### Preconditions
+### Preconditions
 
-* CJ-004 (Invite Trusted Circle Member) has been completed.
-* The invited individual has accepted the Trusted Circle invitation.
-* No personal information has been shared automatically.
-* No permissions have been granted automatically.
+- CJ-004 – Invite Trusted Circle Member has been completed.
+- The Trusted Circle invitation has been accepted.
+- No personal information has been shared automatically.
+- No permissions have been granted automatically.
 
-#### Journey Triggers
+### Journey Triggers
 
-##### User-Initiated
+#### User-Initiated
 
 The journey may begin when the Primary User:
 
-* Opens the Trusted Circle relationship details.
-* Asks AI SAHELI to help configure the relationship.
-* Shares information naturally during conversation.
+- Opens the Trusted Circle relationship details.
+- Asks AI SAHELI to help configure the relationship.
+- Shares relationship information naturally during conversation.
 
-##### AI-Initiated
+#### AI-Initiated
 
-AI SAHELI may ask relationship-related questions when doing so provides clear value, for example:
+AI SAHELI may ask relationship-related questions only when doing so provides clear value, for example:
 
-* After a Trusted Circle invitation has been accepted.
-* When the user enables wellbeing, safety, reminder, or family coordination features.
-* When AI SAHELI identifies that relationship context could improve recommendations.
+- After a Trusted Circle invitation has been accepted.
+- When the user enables wellbeing, safety, reminder, or family coordination features.
+- When additional relationship context could improve future recommendations.
 
-#### Success Criteria
+### Success Criteria
 
-* AI SAHELI understands basic relationship context without overwhelming the user.
-* Relationship understanding develops progressively over time.
-* Each user's AI SAHELI maintains its own independent understanding of the relationship.
-* No assumptions are used to grant permissions.
-* All sharing remains subject to explicit consent.
+- AI SAHELI understands the relationship without overwhelming the user.
+- Relationship understanding develops progressively through natural interactions.
+- Each user's AI SAHELI maintains its own independent understanding of the relationship.
+- Permissions are never inferred from the relationship itself.
+- All sharing remains subject to explicit user consent.
 
-#### Relationship Dimensions
+### Relationship Dimensions
 
-AI SAHELI may gradually learn the relationship across the following dimensions:
+AI SAHELI may gradually learn relationship context across the following dimensions:
 
-1. **Relationship Type**
-   Example: spouse, parent, child, sibling, friend, caregiver, neighbour.
+- **Relationship Type** (e.g., spouse, parent, child, sibling, caregiver, friend)
+- **Living Context** (e.g., living together, nearby, another city, another country)
+- **Care Context** (e.g., caring for them, cared for by them, mutual care, emergency contact)
+- **Interaction Goals** (e.g., wellbeing updates, emergency support, shared reminders, travel safety, family coordination)
 
-2. **Living Context**
-   Example: lives together, lives nearby, lives in another city, lives in another country.
+### Journey Principles
 
-3. **Care Context**
-   Example: I care for them, they care for me, we care for each other, emergency contact only.
+- Progressive Relationship Discovery.
+- Personal Intelligence, Shared Trust.
+- Relationship Before Permission.
+- Privacy by Design.
+- Human Always in Control.
+- Just-In-Time Personalisation.
+- Mutual Consent.
 
-4. **Interaction Goals**
-   Example: emergency support, wellbeing updates, shared reminders, travel safety, family coordination.
+### High-Level Flow
 
-#### Journey Principles
-
-* Progressive Relationship Discovery.
-* Personal Intelligence, Shared Trust.
-* Relationship Before Permission.
-* Privacy by Design.
-* Human Always in Control.
-* Just-In-Time Personalisation.
-* Mutual Consent.
-
-#### High-Level Flow
-
-1. Trusted Circle invitation is accepted.
+1. The Trusted Circle invitation is accepted.
 2. AI SAHELI confirms that the trusted relationship has been established.
-3. AI SAHELI explains that no information will be shared without permission.
-4. AI SAHELI asks only the minimum useful relationship question at the right time.
-5. User provides relationship context.
-6. AI SAHELI stores this understanding privately for that user's own companion experience.
-7. AI SAHELI may use the relationship context to suggest relevant permission or support options later.
-8. Relationship learning continues progressively over time.
+3. AI SAHELI explains that no information will be shared without explicit permission.
+4. AI SAHELI asks only the minimum useful relationship question at the appropriate time.
+5. The user provides relationship context.
+6. AI SAHELI privately stores this understanding for that user's companion experience.
+7. AI SAHELI may later recommend relevant permissions or support features based on the relationship.
+8. Relationship understanding continues to evolve naturally over time.
 
-#### Post Conditions
+### Post Conditions
 
-* A trusted relationship exists between the two users.
-* Each user's AI SAHELI maintains its own private understanding of the relationship.
-* No shared relationship intelligence is assumed.
-* No permissions have been granted unless explicitly configured.
-* The relationship is ready to proceed to CJ-006 (Permission & Trust Configuration) when the user chooses.
+- A trusted relationship exists between the two users.
+- Each user's AI SAHELI maintains its own private understanding of the relationship.
+- No shared relationship intelligence is assumed.
+- No permissions have been granted unless explicitly configured.
+- The relationship is ready to continue with **CJ-006 – Managing Trust Preferences**.
 
-### CJ-006 – Managing Trust Preferences
-
-**Companion Journey ID:** CJ-006
-
-#### Objective
-
-Enable trusted individuals to define how AI SAHELI may support their relationship through mutually agreed Trust Preferences while ensuring that privacy, consent, and user control remain central to every decision.
-
-#### Primary Actors
-
-* Primary User
-* Trusted Circle Member
-
-#### Supporting Actors
-
-* AI SAHELI
-
-#### Preconditions
-
-* CJ-005 (Building a Trusted Relationship) has been completed.
-* A trusted relationship exists between both users.
-
-#### Journey Triggers
-
-##### User-Initiated
-
-The journey may begin when either user:
-
-* Opens the Trusted Relationship settings.
-* Chooses to review or update Trust Preferences.
-* Requests additional shared capabilities.
-
-##### AI-Initiated
-
-AI SAHELI may recommend reviewing Trust Preferences when:
-
-* A new companion capability becomes available.
-* Relationship context suggests additional value.
-* A significant life event or change makes a review appropriate.
-* Existing preferences no longer match observed usage patterns.
-
-AI SAHELI recommendations are optional and never change Trust Preferences automatically.
-
-#### Success Criteria
-
-* Both users understand the available Trust Preferences.
-* Users explicitly approve or decline each Trust Preference.
-* Trust Preferences can be modified or revoked at any time.
-* Changes affecting the shared relationship are communicated transparently to both users.
-* Technical permissions remain implementation details hidden from users.
-
-#### Trust Preference Categories
-
-Examples include:
-
-* Emergency Support
-* Wellbeing Updates
-* Shared Planning
-* Travel Safety
-* Daily Assistance
-
-Additional categories may be introduced as AI SAHELI evolves.
-
-#### Journey Principles
-
-* Human Always in Control.
-* Mutual Consent.
-* Mutual Transparency.
-* Privacy by Design.
-* Relationship Before Permission.
-* Trust Evolves Over Time.
-
-#### High-Level Flow
-
-1. Journey is initiated by either the user or AI SAHELI.
-2. AI SAHELI presents relevant Trust Preference recommendations.
-3. Users review and customise Trust Preferences.
-4. AI SAHELI explains the expected outcome of each preference in plain language.
-5. Users explicitly confirm or decline their choices.
-6. AI SAHELI applies the agreed Trust Preferences.
-7. Either user may review, modify, or revoke Trust Preferences at any time.
-
-#### Post Conditions
-
-* Trust Preferences reflect the current agreement between the users.
-* Each user's AI SAHELI continues to maintain its own independent understanding of the relationship.
-* Only explicitly authorised information and actions are shared.
-* The trusted relationship can evolve over time without requiring recreation of the relationship.
-
-### CJ-006 – Managing Trust Preferences
+### 7.2.6 CJ-006 – Managing Trust Preferences
 
 **Companion Journey ID:** CJ-006
 
-#### Objective
+### Objective
 
-Enable trusted individuals to define how AI SAHELI may support their relationship through mutually agreed Trust Preferences while ensuring that privacy, consent, transparency, and user control remain central to every decision.
+Enable trusted individuals to define how AI SAHELI may support their relationship through mutually agreed Trust Preferences while ensuring that privacy, consent, transparency, and user control remain central throughout the relationship.
 
 Trust Preferences are designed around the outcomes users wish to achieve rather than technical permissions. AI SAHELI translates these preferences into the appropriate underlying capabilities while keeping users informed and in control.
 
----
-
-#### Primary Actors
+### Primary Actors
 
 * Primary User
 * Trusted Circle Member
 
----
-
-#### Supporting Actors
+### Supporting Actors
 
 * AI SAHELI
 
----
+### Preconditions
 
-#### Preconditions
-
-* CJ-005 (Building a Trusted Relationship) has been completed.
+* CJ-005 – Building a Trusted Relationship has been completed.
 * A Trusted Relationship exists between both users.
 
----
+### Journey Triggers
 
-#### Journey Triggers
-
-##### User-Initiated
+#### User-Initiated
 
 The journey may begin when either user:
 
@@ -930,36 +825,33 @@ The journey may begin when either user:
 * Requests additional shared capabilities.
 * Modifies an existing relationship.
 
-##### AI-Initiated
+#### AI-Initiated
 
 AI SAHELI may recommend reviewing Trust Preferences when:
 
 * New companion capabilities become available.
 * Relationship context suggests additional value.
 * A significant life event may benefit from updated preferences.
-* Existing preferences no longer reflect current usage patterns.
+* Existing Trust Preferences may no longer reflect the users' current needs.
 
 AI SAHELI recommendations are optional and never change Trust Preferences automatically.
 
----
-
-#### Success Criteria
+### Success Criteria
 
 * Both users understand the available Trust Preferences.
+* AI SAHELI presents meaningful outcomes rather than technical permission settings.
 * Users explicitly approve or decline each Trust Preference.
+* Users can configure Trust Preferences independently where appropriate, while preferences affecting both users require mutual agreement.
 * Trust Preferences can be reviewed, modified, or revoked at any time.
 * Changes affecting the shared relationship are communicated transparently to both users.
-* AI SAHELI presents meaningful outcomes rather than technical permission settings.
 
----
-
-#### Trust Preference Categories
+### Trust Preference Categories
 
 Trust Preferences define how AI SAHELI may assist trusted individuals while respecting privacy, consent, and user control.
 
 Examples include:
 
-##### Emergency Support
+#### Emergency Support
 
 Examples:
 
@@ -968,7 +860,7 @@ Examples:
 * SOS assistance
 * Emergency escalation
 
-##### Wellbeing Updates
+#### Wellbeing Updates
 
 Examples:
 
@@ -977,7 +869,7 @@ Examples:
 * Inactivity alerts
 * Health-related reminders (where authorised)
 
-##### Shared Planning
+#### Shared Planning
 
 Examples:
 
@@ -986,7 +878,7 @@ Examples:
 * Calendar coordination
 * Family events
 
-##### Travel Safety
+#### Travel Safety
 
 Examples:
 
@@ -994,7 +886,7 @@ Examples:
 * Safe arrival confirmation
 * Delayed journey notifications
 
-##### Location & Presence
+#### Location & Presence
 
 Examples:
 
@@ -1005,18 +897,18 @@ Examples:
 * Device battery status
 * Last known location during emergencies (where authorised)
 
-Whenever possible, AI SAHELI communicates meaningful context rather than raw technical information.
+Whenever appropriate, AI SAHELI communicates meaningful context rather than exposing raw technical information.
 
 For example:
 
 * "Amit has arrived safely at work."
 * "Your daughter appears to be travelling home."
-* "Your father's phone battery is running low."
+* "Your father’s phone battery is running low."
 * "Your wife may need assistance."
 
-instead of simply exposing raw GPS coordinates, battery percentages, or device telemetry.
+Rather than simply exposing GPS coordinates, battery percentages, or device telemetry.
 
-##### Daily Assistance
+#### Daily Assistance
 
 Examples:
 
@@ -1029,9 +921,7 @@ Each Trust Preference may contain multiple configurable sharing options dependin
 
 AI SAHELI manages the underlying technical permissions internally while presenting simple, human-centred choices to users.
 
----
-
-#### Journey Principles
+### Journey Principles
 
 * Human Always in Control.
 * Mutual Consent.
@@ -1042,12 +932,10 @@ AI SAHELI manages the underlying technical permissions internally while presenti
 * Trust Evolves Over Time.
 * Share Understanding, Not Data.
 
----
+### High-Level Flow
 
-#### High-Level Flow
-
-1. Journey is initiated by either the user or AI SAHELI.
-2. AI SAHELI recommends relevant Trust Preferences based on the relationship and current context.
+1. The journey is initiated by either the user or AI SAHELI.
+2. AI SAHELI may recommend relevant Trust Preferences based on the relationship and current context.
 3. Users review and customise Trust Preferences.
 4. AI SAHELI explains the expected outcome of each preference using clear, human-centred language.
 5. Users explicitly approve or decline their choices.
@@ -1055,9 +943,14 @@ AI SAHELI manages the underlying technical permissions internally while presenti
 7. If future changes affect the shared relationship, both users are informed and invited to review the updated preferences.
 8. Either user may review, modify, or revoke Trust Preferences at any time.
 
----
+### Typical Examples
 
-#### Post Conditions
+* A parent enables emergency alerts while choosing not to receive routine wellbeing updates.
+* A couple enables shared planning features such as reminders and calendar coordination.
+* An elderly parent agrees to share location only during emergencies while keeping everyday movements private.
+* Family members review and update Trust Preferences as circumstances change over time.
+
+### Post Conditions
 
 * Trust Preferences accurately reflect the current agreement between both users.
 * Each AI SAHELI continues to maintain its own independent understanding of its user and relationships.
@@ -1065,100 +958,80 @@ AI SAHELI manages the underlying technical permissions internally while presenti
 * Trust Preferences evolve naturally as relationships and user needs change.
 * Users remain in complete control of their privacy and sharing preferences throughout the lifetime of the relationship.
 
+### 7.3.1 CJ-201 – Daily Companion Check-in
 
-# CJ-201 – Daily Companion Check-in
+**Companion Journey ID:** CJ-201
 
-## Objective
+### Objective
 
-Enable AI SAHELI to naturally reconnect with the user throughout the day in a way that feels thoughtful, personal, and welcome rather than repetitive or intrusive. Every check-in should strengthen the long-term relationship between the user and their companion.
+Enable AI SAHELI to naturally reconnect with the user throughout everyday life in a way that feels thoughtful, personal, and welcome rather than repetitive or intrusive. Every check-in should strengthen the long-term relationship between the user and their companion.
 
----
+### Primary Actor
 
-## Primary Actors
+* Primary User
 
-* User
-* AI Companion
+### Supporting Actors
 
----
+* AI SAHELI
 
-## Supporting Actors
+### Preconditions
 
-* Context Engine
-* Memory Engine
-* Notification Engine
-* Personalization Engine
-
----
-
-## Preconditions
-
-* The user has completed onboarding.
+* CJ-001 – First-Time Onboarding has been completed.
 * A trusted companion relationship has been established.
-* The companion has learned at least a minimal understanding of the user's preferences and routine.
-* Notifications (or an equivalent communication channel) are enabled.
-* User-defined quiet hours and trust preferences are respected.
+* AI SAHELI has learned at least a minimal understanding of the user's preferences and routine.
+* Notifications, or an equivalent communication channel, are available.
+* User-defined quiet hours and Trust Preferences are respected.
 
----
+### Journey Triggers
 
-## Journey Triggers
+AI SAHELI may initiate a check-in based on one or more of the following:
 
-The companion may initiate a check-in based on one or more of the following:
+* Morning greeting.
+* Evening greeting.
+* The user opens AI SAHELI after a period of inactivity.
+* A significant change in the user's context.
+* A prolonged period without interaction.
+* An important day or upcoming event.
+* An established daily routine.
+* The user explicitly starts a conversation.
 
-* Morning greeting
-* Evening greeting
-* User opens AI SAHELI after a period of inactivity
-* Significant context change
-* Long period without interaction
-* Important day or upcoming event
-* User-defined daily routine
-* User explicitly starts a conversation
+Before initiating a check-in, AI SAHELI always considers the user's current context and determines whether the interaction would be helpful and appropriate.
 
-The companion should always evaluate the user's current context before deciding whether to initiate a check-in.
-
----
-
-## Success Criteria
-
-The journey is considered successful when:
+### Success Criteria
 
 * The interaction feels natural rather than automated.
 * The greeting reflects the user's current context whenever appropriate.
 * The companion avoids unnecessary interruptions.
 * The user feels welcomed rather than disturbed.
 * The interaction encourages conversation without demanding attention.
-* User engagement helps improve future check-in timing and style.
+* The user can always choose whether or not to engage without negative consequences.
+* User engagement helps improve future check-in timing, tone, and style.
 
----
+### Journey Principles
 
-## Journey Principles
+#### Companion Before Conversation
 
-### 1. Companion Before Conversation
+The objective is to strengthen the relationship rather than simply start a conversation.
 
-The objective is to strengthen the relationship—not simply to start a conversation.
+#### Context Before Communication
 
----
+Before initiating a check-in, AI SAHELI considers available and permitted contextual information, including:
 
-### 2. Context Before Communication
+* Time of day.
+* User activity.
+* Calendar availability.
+* Location (where authorised).
+* Recent interactions.
+* Established routines.
+* User preferences.
 
-Before initiating a check-in, the companion should consider available and permitted contextual information, including:
-
-* Time of day
-* User activity
-* Calendar availability
-* Location (only with permission)
-* Recent interactions
-* Established routines
-* User preferences
-
----
-
-### 3. Never Generic by Default
+#### Never Generic by Default
 
 Avoid repetitive greetings such as:
 
 > "Hello."
 
-Instead, generate greetings that reflect the user's situation whenever possible.
+Whenever appropriate, generate greetings that reflect the user's situation.
 
 Examples:
 
@@ -1167,134 +1040,128 @@ Examples:
 * "Good luck with your presentation today."
 * "I noticed it's been a busy week. I hope you're finding a little time to recharge."
 
----
+#### Silence Is Sometimes Better
 
-### 4. Silence Is Sometimes Better
+If AI SAHELI determines that the user is:
 
-If the companion determines that the user is:
+* Driving.
+* Sleeping.
+* In a meeting.
+* Using Do Not Disturb mode.
+* Focused on work.
+* Otherwise unavailable.
 
-* Driving
-* Sleeping
-* In a meeting
-* Using Do Not Disturb mode
-* Focused on work
-* Otherwise unavailable
-
-then it should delay or suppress non-essential check-ins.
+It should delay or suppress non-essential check-ins.
 
 Choosing not to interrupt is considered successful companionship.
 
----
+#### Relationship Over Frequency
 
-### 5. Relationship Over Frequency
+The goal is not to maximise the number of interactions but to maximise the quality, relevance, and trustworthiness of each interaction.
 
-The goal is not to maximize the number of interactions but to maximize the quality, relevance, and trustworthiness of each interaction.
+### High-Level Flow
 
----
-
-## High-Level Flow
-
-1. The companion determines whether a check-in may be appropriate.
-2. Contextual information is gathered from available and permitted sources.
-3. Quiet hours, trust settings, and interruption preferences are evaluated.
-4. If interruption is inappropriate, the companion remains silent.
-5. If appropriate, a personalized greeting is generated.
+1. AI SAHELI determines whether a check-in may be appropriate.
+2. AI SAHELI considers available and permitted contextual information.
+3. Quiet hours, Trust Preferences, and interruption preferences are evaluated.
+4. If interruption is inappropriate, AI SAHELI remains silent.
+5. If appropriate, a personalised greeting is generated.
 6. The user may:
-
    * Respond and begin a conversation.
    * Ignore the greeting.
    * Dismiss the notification.
-7. The companion records anonymous engagement signals to improve future check-in timing, tone, and frequency.
+7. AI SAHELI learns from user engagement to improve future check-in timing, tone, and frequency.
 
----
+### Typical Examples
 
-## Post Conditions
+* Greet the user with a personalised "Good morning" before their usual workday begins.
+* Welcome the user back after several days without interaction.
+* Wish the user good luck before an important meeting or presentation.
+* Delay a non-essential greeting because the user is driving or has enabled Do Not Disturb mode.
+* Check in during the evening after noticing a particularly busy week, offering a gentle opportunity to talk.
 
-* The companion gains additional understanding of the user's preferred interaction style.
-* Future greetings become progressively more personalized.
+### Post Conditions
+
+* AI SAHELI gains additional understanding of the user's preferred interaction style.
+* Future greetings become progressively more personalised.
 * Engagement patterns help improve future check-in timing.
 * No unnecessary follow-up reminders are generated if the user chooses not to respond.
-* The user's trust and preference settings remain fully respected.
+* The user's Trust Preferences, privacy settings, and interruption preferences remain fully respected.
 
----
 
-## MVP Notes
+### 7.3.2 CJ-202 – Natural Conversations
 
-For the Interview MVP, the implementation should include:
+**Companion Journey ID:** CJ-202
 
-* Context-aware morning and evening greetings.
-* Basic personalization using the user's name and remembered preferences.
-* Respect for Do Not Disturb mode and configured quiet hours.
-* Simple learning from engagement signals (responded, ignored, dismissed) to improve future interactions.
+### Objective
 
-Future releases may incorporate richer contextual awareness through wearable devices, smart home integrations, multimodal interactions, environmental signals, and predictive engagement while continuing to prioritize user privacy and control.
+Enable users to engage in natural, open-ended conversations with AI SAHELI that feel authentic, supportive, and relationship-oriented rather than task-oriented. The companion should adapt to the user's communication style while maintaining context, empathy, and trust.
 
-# CJ-202 – Natural Conversations
+### Primary Actor
 
-## Objective
+* Primary User
 
-Enable users to engage in natural, open-ended conversations with AI SAHELI that feel authentic, supportive, and relationship-oriented rather than task-oriented. The companion should adapt to the user's conversational style while maintaining context, empathy, and trust.
+### Supporting Actors
 
----
+* AI SAHELI
 
-## Primary Actors
-
-* User
-* AI Companion
-
----
-
-## Supporting Actors
-
-* Conversation Engine
-* Context Engine
-
----
-
-## Preconditions
+### Preconditions
 
 * A trusted companion relationship has been established.
 * The user initiates a conversation or responds to a companion check-in.
-* Trust preferences and privacy settings are respected.
+* Trust Preferences and privacy settings are respected.
 
----
-
-## Journey Triggers
+### Journey Triggers
 
 A conversation may begin when:
 
 * The user starts a new conversation.
 * The user responds to a companion check-in.
-* The companion appropriately follows up on an earlier conversation.
+* AI SAHELI appropriately follows up on a previous conversation, where appropriate.
 * The user shares a thought, feeling, question, or life experience.
 
----
-
-## High-Level Flow
-
-1. The user starts or resumes a conversation.
-2. The companion identifies the conversation context and user intent.
-3. Relevant conversational context is maintained throughout the interaction.
-4. The companion responds naturally, balancing listening, empathy, curiosity, and assistance.
-5. The conversation continues naturally until either the user or the companion ends the interaction.
-
----
-
-## Success Criteria
-
-The journey is successful when:
+### Success Criteria
 
 * Conversations feel natural rather than scripted.
 * The companion maintains conversational continuity throughout the interaction.
 * Responses are relevant to the user's situation.
-* Users can speak naturally without repeatedly providing the same information.
+* Users can communicate naturally without repeatedly providing the same information.
+* The user feels heard and understood throughout the conversation.
 * The interaction feels supportive, engaging, and relationship-oriented.
 
----
+### Journey Principles
 
-## Conversation Behaviours
+#### Conversation Before Task
 
-The companion should naturally adapt its communication style based on the user's needs.
+The objective is to build meaningful conversations rather than simply complete requests.
+
+#### Listen Before Responding
+
+AI SAHELI should first understand the user's thoughts, feelings, and intent before offering guidance, information, or assistance.
+
+#### Context Before Repetition
+
+The companion should preserve conversational context so users do not need to repeatedly explain themselves during an interaction.
+
+#### Curiosity Without Intrusion
+
+AI SAHELI may ask thoughtful follow-up questions when appropriate, while always respecting the user's comfort, privacy, and willingness to continue the conversation.
+
+#### Human Always in Control
+
+The user always decides how long a conversation continues, what topics are discussed, and when the interaction ends.
+
+### High-Level Flow
+
+1. The user starts or resumes a conversation.
+2. AI SAHELI considers the conversation context and understands the user's intent.
+3. Relevant conversational context is maintained throughout the interaction.
+4. AI SAHELI responds naturally, balancing listening, empathy, curiosity, and assistance.
+5. The conversation continues naturally until either the user or AI SAHELI concludes the interaction.
+
+### Conversation Behaviours
+
+AI SAHELI naturally adapts its communication style according to the user's needs.
 
 Examples include:
 
@@ -1306,398 +1173,391 @@ Examples include:
 * Reflective discussions.
 * Simply listening without immediately offering advice or solutions.
 
-The companion should recognize that not every conversation requires solving a problem. Sometimes the most valuable response is to listen, understand, and remain present.
+The companion recognises that not every conversation requires solving a problem. Sometimes the most valuable response is to listen, understand, and remain present.
 
----
+### Conversation Continuity
 
-## Conversation Continuity
+AI SAHELI preserves conversational context throughout the interaction, enabling users to communicate naturally without unnecessary repetition.
 
-The companion should preserve conversational context throughout the interaction, enabling users to communicate naturally without unnecessary repetition.
+Long-term memory creation and retention are described separately in **CJ-203 – Remembering What Matters**.
 
-Long-term memory creation and retention are described in **CJ-203 – Remembering What Matters**.
+### Typical Examples
 
----
+* Continue yesterday's conversation without asking the user to repeat previous details.
+* Celebrate a personal achievement shared by the user.
+* Listen patiently while the user talks about a difficult day without immediately offering solutions.
+* Ask thoughtful follow-up questions during a brainstorming session.
+* Resume a previous discussion when the user chooses to continue it.
 
-## Post Conditions
+### Post Conditions
 
-* The conversation concludes naturally.
-* The interaction ends with conversational context available for appropriate follow-on processing.
-* Any decision regarding long-term memory is handled separately according to CJ-203.
+* The conversation ends naturally through user choice or conversational completion.
+* Conversational context remains available for appropriate follow-on processing.
+* Any decision regarding long-term memory is handled separately according to **CJ-203 – Remembering What Matters**.
 
----
+### 7.3.3 CJ-203 – Remembering What Matters
 
-## MVP Notes
+**Companion Journey ID:** CJ-203
 
-For the Interview MVP, the implementation should demonstrate:
+### Objective
 
-* Multi-turn conversations.
-* Conversation context preservation.
-* Natural follow-up questions.
-* Context-aware responses.
+Enable AI SAHELI to identify and retain meaningful information from interactions with the user that strengthens the long-term relationship while respecting user privacy, trust, and memory preferences.
 
-Future releases may incorporate richer emotional understanding, multilingual conversations, multimodal interactions, and more advanced conversational capabilities.
+### Primary Actor
 
-# CJ-203 – Remembering What Matters
+* Primary User
 
-## Objective
+### Supporting Actors
 
-Following a conversation, enable AI SAHELI to identify and retain meaningful information that strengthens the long-term relationship while respecting user privacy, trust, and memory preferences.
+* AI SAHELI
 
----
-
-## Primary Actors
-
-* User
-* AI Companion
-
----
-
-## Supporting Actors
-
-* Memory Engine
-* Conversation Engine
-
----
-
-## Preconditions
+### Preconditions
 
 * A trusted companion relationship has been established.
 * The user has configured memory and privacy preferences.
-* The companion has permission to retain memories according to those preferences.
+* AI SAHELI has permission to create and retain long-term memories according to those preferences.
 
----
-
-## Journey Triggers
+### Journey Triggers
 
 Meaningful memories may be created when:
 
-* The user explicitly asks the companion to remember something.
-* The companion identifies potentially meaningful information and requests permission to remember it.
+* The user explicitly asks AI SAHELI to remember something.
+* AI SAHELI identifies potentially meaningful information and requests permission to remember it.
 * Information is learned automatically within the user's configured memory preferences.
 
----
+### Success Criteria
 
-## High-Level Flow
-
-1. A meaningful piece of information is identified.
-2. The companion determines whether the information should become a long-term memory.
-3. If appropriate, the companion requests the user's confirmation or follows the user's predefined memory preferences.
-4. The memory is retained according to the user's privacy, trust, and memory settings.
-5. The user can review, modify, or remove remembered information at any time.
-
----
-
-## Success Criteria
-
-The journey is successful when:
-
-* The companion remembers information that meaningfully improves future interactions.
+* AI SAHELI remembers information that meaningfully improves future interactions.
 * Information that is trivial, temporary, or no longer relevant is not unnecessarily retained.
 * Users understand why information is being remembered.
 * Users remain in full control of their memories.
-* Remembered information naturally improves future conversations, personalization, and proactive support.
+* Remembered information remains accurate, relevant, and aligned with the user's current preferences.
+* Remembered information naturally improves future conversations, personalisation, and proactive support.
 
----
+### Journey Principles
 
-## Memory Behaviours
+#### Remember What Matters
 
-AI SAHELI should support multiple ways of creating meaningful memories:
+AI SAHELI focuses on remembering information that strengthens the long-term relationship rather than simply storing personal facts.
+
+#### Forget What Doesn't
+
+Temporary, outdated, or no longer meaningful information should not be retained unnecessarily.
+
+#### Memory Through Trust
+
+Long-term memories are created in accordance with the user's Trust Preferences, privacy settings, and desired level of personalisation.
+
+#### Transparency Before Retention
+
+Whenever appropriate, AI SAHELI explains why information is being remembered and gives the user control over long-term memory creation.
+
+#### Human Always in Control
+
+The user can review, modify, or remove remembered information at any time.
+
+### High-Level Flow
+
+1. A meaningful piece of information is identified during an interaction.
+2. AI SAHELI evaluates whether the information should become a long-term memory.
+3. If appropriate, AI SAHELI requests the user's confirmation or follows the user's predefined memory preferences.
+4. The memory is retained according to the user's privacy, trust, and memory settings.
+5. The user can review, modify, or remove remembered information at any time.
+
+### Memory Behaviours
+
+AI SAHELI supports multiple ways of creating meaningful memories, including:
 
 * User-initiated memories.
 * Companion-suggested memories with user approval.
-* Automatic learning within the user's configured preferences.
+* Automatic learning within the user's configured memory preferences.
 
-The companion should prioritize remembering information that is meaningful or important to the user's life rather than simply storing personal facts.
+The companion prioritises remembering information that is meaningful or important to the user's life rather than simply storing personal facts.
 
-Long-term memory creation should be transparent, respectful, and always aligned with the user's trust and privacy preferences.
+Long-term memory creation is transparent, respectful, and always aligned with the user's Trust Preferences and privacy settings.
 
----
+### Typical Examples
 
-## Post Conditions
+* Remember the user's favourite coffee after they ask AI SAHELI to do so.
+* Suggest remembering an important anniversary so future reminders can be personalised.
+* Learn a preferred morning exercise routine within the user's configured memory preferences.
+* Forget a temporary preference once it is no longer relevant.
+* Allow the user to review, edit, or delete a remembered preference at any time.
 
-* The companion develops a richer understanding of the user over time.
-* Future interactions become increasingly personalized and contextually relevant.
+### Post Conditions
+
+* AI SAHELI develops a richer understanding of the user over time.
+* Future interactions become progressively more personalised and contextually relevant.
 * The user's memory preferences continue to govern how new memories are created, updated, and managed.
 
----
 
-## MVP Notes
+### 7.3.4 CJ-204 – Emotional Awareness
 
-For the Interview MVP, the implementation should demonstrate:
+**Companion Journey ID:** CJ-204
 
-* User-created memories.
-* Companion-suggested memories requiring confirmation.
-* Basic automatic learning based on user preferences.
-* A simple interface for reviewing, editing, and deleting remembered information.
+### Objective
 
-Future versions may introduce richer memory organization, importance-aware prioritization, confidence-based learning, relationship memories, and advanced long-term personalization.
+Enable AI SAHELI to recognise situations that may have emotional significance, respond with empathy, and adapt its communication appropriately while avoiding assumptions about the user's emotional state.
 
-# CJ-204 – Emotional Awareness
+### Primary Actor
 
-## Objective
+* Primary User
 
-Enable AI SAHELI to recognize emotionally significant situations, respond with empathy, and adapt its communication appropriately while avoiding assumptions about the user's emotional state.
+### Supporting Actors
 
----
+* AI SAHELI
 
-## Primary Actors
-
-* User
-* AI Companion
-
----
-
-## Supporting Actors
-
-* Conversation Engine
-* Context Engine
-* Memory Engine
-
----
-
-## Preconditions
+### Preconditions
 
 * A trusted companion relationship has been established.
-* The companion has sufficient conversational or contextual information to understand the situation.
-* User privacy and trust preferences are respected.
+* AI SAHELI has sufficient conversational or contextual understanding of the situation.
+* User privacy and Trust Preferences are respected.
 
----
-
-## Journey Triggers
+### Journey Triggers
 
 Emotional awareness may be required when:
 
 * The user expresses feelings, concerns, or personal experiences.
 * The conversation involves a meaningful life event or milestone.
-* Recent memories and context indicate an emotionally significant situation.
-* The companion identifies uncertainty and seeks clarification before responding.
+* Recent memories and context indicate a situation that may have emotional significance.
+* AI SAHELI identifies uncertainty and seeks clarification before responding.
 
----
+### Success Criteria
 
-## High-Level Flow
-
-1. The companion receives conversational and contextual information.
-2. The companion evaluates whether the situation may have emotional significance.
-3. The companion responds with empathy and appropriate tone.
-4. When uncertainty exists, the companion asks respectful clarifying questions rather than making assumptions.
-5. The conversation continues naturally based on the user's responses.
-
----
-
-## Success Criteria
-
-The journey is successful when:
-
-* The companion responds with empathy without assuming the user's emotions.
+* AI SAHELI responds with empathy without assuming the user's emotions.
 * Communication feels supportive and respectful.
 * The companion adapts its tone to the situation.
 * The user feels understood rather than analysed.
+* The user never feels judged, analysed, or diagnosed.
 * Emotional awareness improves the quality of future conversations and support.
 
----
+### Journey Principles
 
-## Emotional Behaviours
+#### Understand Before Responding
 
-The companion should:
+AI SAHELI seeks to understand the user's situation before responding, ensuring that empathy is informed rather than assumed.
 
-* Recognize emotionally significant situations.
+#### Empathy Without Assumption
+
+The companion avoids making assumptions about the user's emotional state and instead responds with care, respect, and humility.
+
+#### Clarify Before Concluding
+
+When uncertainty exists, AI SAHELI asks respectful clarifying questions rather than drawing conclusions.
+
+#### Respect Emotional Privacy
+
+Emotional awareness should never become emotional surveillance. The user's comfort, privacy, and Trust Preferences remain central to every interaction.
+
+#### Human Always in Control
+
+The user always decides how much they wish to share, whether to continue the conversation, and how deeply to engage.
+
+### High-Level Flow
+
+1. AI SAHELI receives conversational and contextual information.
+2. AI SAHELI considers whether the situation may have emotional significance.
+3. The companion responds with empathy and an appropriate tone.
+4. When uncertainty exists, AI SAHELI asks respectful clarifying questions rather than making assumptions.
+5. The conversation continues naturally based on the user's responses.
+
+### Emotional Behaviours
+
+AI SAHELI should:
+
+* Recognise situations that may have emotional significance.
 * Acknowledge important life events.
 * Ask clarifying questions when uncertain.
 * Avoid labelling or diagnosing emotions.
 * Adapt its communication style based on the conversation and available context.
 
-The companion should focus on understanding the user's situation rather than attempting to classify their emotional state.
+The companion focuses on understanding the user's situation rather than attempting to classify their emotional state.
 
----
+### Typical Examples
 
-## Post Conditions
+* Congratulate the user on a promotion while recognising it as an important life milestone.
+* Offer gentle encouragement after the user shares that they have had a difficult day.
+* Ask a respectful clarifying question when the user's feelings are unclear rather than making assumptions.
+* Recognise that brief or quiet responses do not necessarily indicate sadness or frustration.
+* Celebrate a personal achievement with warmth while allowing the user to guide the conversation.
+
+### Post Conditions
 
 * The conversation progresses with appropriate empathy and understanding.
-* Relevant contextual understanding may contribute to future interactions in accordance with the user's memory preferences.
-* The companion continues learning how to communicate effectively with the user over time.
-
----
-
-## MVP Notes
-
-For the Interview MVP, the implementation should demonstrate:
-
-* Empathetic conversational responses.
-* Tone adaptation based on conversational context.
-* Clarifying questions when emotional intent is uncertain.
-* Context-aware responses using recent conversation and remembered information.
-
-Future versions may introduce richer emotional understanding, multimodal emotional cues, wearable integrations, and longitudinal wellbeing insights while maintaining user privacy and control.
+* Relevant contextual understanding may inform future interactions in accordance with the user's memory preferences.
+* AI SAHELI continues learning how to communicate more effectively with the user over time.
 
 
-# CJ-205 – Context-Aware Assistance
+### 7.3.5 CJ-205 – Context-Aware Assistance
 
-## Objective
+**Companion Journey ID:** CJ-205
 
-Enable AI SAHELI to provide timely, relevant, and personalized assistance by determining the most appropriate response based on the user's current situation using available conversation, memory, emotional understanding, and contextual information.
+### Objective
 
----
+Enable AI SAHELI to provide timely, relevant, and personalised assistance by considering the user's conversation, memories, emotional understanding, and available context to determine the most appropriate response for the current situation.
 
-## Primary Actors
+### Primary Actor
 
-* User
-* AI Companion
+* Primary User
 
----
+### Supporting Actors
 
-## Supporting Actors
+* AI SAHELI
 
-* Context Engine
-* Conversation Engine
-* Memory Engine
-* Emotional Understanding Engine
-
----
-
-## Preconditions
+### Preconditions
 
 * A trusted companion relationship has been established.
-* Relevant conversational, contextual, and memory information is available through user-approved sources.
-* Privacy, trust, and permission settings are respected.
+* Relevant conversational, contextual, and remembered information is available in accordance with the user's Trust Preferences and privacy settings.
+* Privacy, Trust Preferences, and user permissions are respected.
 
----
-
-## Journey Triggers
+### Journey Triggers
 
 Context-aware assistance may be provided when:
 
 * The user requests help or guidance.
-* The companion identifies an opportunity to reduce user effort during an ongoing interaction.
+* AI SAHELI identifies an opportunity to reduce user effort during an ongoing interaction.
 * New contextual information changes the relevance of a potential response.
-* Multiple contextual signals indicate that personalized assistance would improve the user experience.
+* Multiple contextual signals indicate that personalised assistance would improve the user experience.
 
----
-
-## High-Level Flow
-
-1. The user requests assistance or an appropriate opportunity to assist is identified.
-2. The companion considers relevant conversational, memory, emotional, and contextual understanding.
-3. The companion determines the most appropriate form of assistance for the user's current situation.
-4. The companion provides personalized assistance in a natural and non-intrusive manner.
-5. The user accepts, declines, or continues the conversation naturally.
-
----
-
-## Success Criteria
-
-The journey is successful when:
+### Success Criteria
 
 * Assistance reflects the user's overall situation rather than only the immediate request.
-* The companion recommends the most relevant next action.
+* AI SAHELI recommends the most relevant next action when appropriate.
 * Users are not required to repeatedly provide information already understood by the companion.
 * Assistance reduces effort while respecting user expectations, privacy, and trust.
 * The interaction feels natural, timely, and supportive.
+* The user always remains free to accept, ignore, or decline assistance without pressure.
 
----
+### Journey Principles
 
-## Assistance Behaviours
+#### Situation Before Suggestion
 
-The companion should:
+AI SAHELI considers the user's overall situation before offering assistance, ensuring that recommendations are relevant rather than reactive.
 
-* Consider relevant conversation, memories, emotional understanding, and available context before responding.
-* Prioritize the information that is most relevant to the current situation.
+#### Personalisation Through Understanding
+
+Assistance is informed by the user's conversations, remembered information, emotional understanding, and available context.
+
+#### Assist Without Intrusion
+
+AI SAHELI provides support when it adds value while avoiding unnecessary or disruptive recommendations.
+
+#### Reduce Effort, Preserve Choice
+
+The companion should reduce the user's effort without removing their freedom to decide.
+
+#### Human Always in Control
+
+The user always decides whether to accept, ignore, modify, or decline AI SAHELI's assistance.
+
+### High-Level Flow
+
+1. The user requests assistance or AI SAHELI identifies an appropriate opportunity to help.
+2. AI SAHELI considers relevant conversational, remembered, emotional, and contextual understanding.
+3. AI SAHELI determines the most appropriate way to assist the user in their current situation.
+4. The companion provides personalised assistance in a natural and non-intrusive manner.
+5. The user accepts, declines, ignores, or continues the conversation naturally.
+
+### Assistance Behaviours
+
+AI SAHELI should:
+
+* Consider relevant conversations, memories, emotional understanding, and available context before responding.
+* Prioritise the information most relevant to the current situation.
 * Provide assistance that is proportional to the user's needs.
 * Avoid unnecessary or intrusive recommendations.
-* Respect user permissions when using contextual information.
+* Respect user permissions and Trust Preferences when using contextual information.
 
-The companion should assist the user's situation rather than simply responding to an isolated request.
+The companion assists the user's situation rather than simply responding to an isolated request.
 
----
+### Typical Examples
 
-## Post Conditions
+* Suggest leaving earlier for an appointment because traffic conditions may affect the user's usual journey.
+* Recommend taking an umbrella before the user's planned walk after considering the weather forecast.
+* Offer to remind the user about medication based on their established routine and preferences.
+* Suggest rescheduling a reminder because the user is currently in a meeting.
+* Recommend contacting a Trusted Circle member when the user explicitly requests additional support.
+
+### Post Conditions
 
 * The user receives assistance that is appropriate to the current situation.
 * The conversation continues naturally based on the user's response.
-* Contextual understanding may contribute to future interactions according to the user's privacy and memory preferences.
+* Contextual understanding may inform future interactions in accordance with the user's memory preferences, Trust Preferences, and privacy settings.
 
----
+### 7.3.6 CJ-206 – Gentle Proactive Support
 
-## MVP Notes
+**Companion Journey ID:** CJ-206
 
-For the Interview MVP, the implementation should demonstrate:
+### Objective
 
-* Personalized assistance using conversation history and remembered information.
-* Situation-aware recommendations based on user-approved contextual information.
-* Reduced need for users to repeat previously shared information.
-* Privacy-aware use of contextual signals.
-* Natural decision-making that adapts assistance to the user's current situation.
+Enable AI SAHELI to thoughtfully offer proactive support when it is likely to be timely, helpful, and welcome, while always respecting the user's attention, privacy, trust, and personal boundaries.
 
-Future versions may incorporate richer situational reasoning, wearable devices, calendar awareness, trusted circle context, multimodal contextual understanding, and advanced reasoning capabilities while maintaining user control and transparency.
+### Primary Actor
 
-# CJ-206 – Gentle Proactive Support
+* Primary User
 
-## Objective
+### Supporting Actors
 
-Enable AI SAHELI to thoughtfully initiate support when it is likely to be timely, helpful, and welcome, while always respecting the user's attention, privacy, trust, and personal boundaries.
+* AI SAHELI
 
----
-
-## Primary Actors
-
-* User
-* AI Companion
-
----
-
-## Supporting Actors
-
-* Conversation Engine
-* Memory Engine
-* Emotional Understanding Engine
-* Situational Reasoning & Decision Engine
-
----
-
-## Preconditions
+### Preconditions
 
 * A trusted companion relationship has been established.
-* The companion has sufficient user-approved understanding to determine that proactive support may be appropriate.
+* AI SAHELI has sufficient understanding based on user-approved information to determine that proactive support may be appropriate.
 * User preferences for proactive interactions are respected.
 
----
+### Journey Triggers
 
-## Journey Triggers
-
-The companion may proactively offer support when:
+AI SAHELI may proactively offer support when:
 
 * An important event or milestone is approaching.
 * A meaningful follow-up would benefit the user.
-* The companion identifies an appropriate opportunity to reduce user effort.
+* AI SAHELI identifies an appropriate opportunity to reduce user effort.
 * The user may benefit from encouragement, guidance, or a gentle check-in.
-* Relevant conversation, memory, emotional understanding, and contextual information together indicate that support would likely be helpful.
+* Relevant conversation, memories, emotional understanding, and available context together indicate that support would likely be helpful.
 
----
-
-## High-Level Flow
-
-1. The companion identifies a potential opportunity to provide proactive support.
-2. The companion evaluates whether initiating support is appropriate for the current situation.
-3. If appropriate, the companion offers gentle, non-intrusive assistance.
-4. The user accepts, declines, ignores, or postpones the interaction.
-5. The companion respectfully adapts future proactive behaviour based on the user's preferences and responses.
-
----
-
-## Success Criteria
-
-The journey is successful when:
+### Success Criteria
 
 * Proactive support feels timely, relevant, and thoughtful.
 * The companion reduces user effort without becoming intrusive.
 * Users remain in complete control of proactive interactions.
 * Declining or ignoring proactive support is always respected.
+* The user never feels pressured to engage with proactive support.
 * Proactive behaviour strengthens trust rather than competing for attention.
 
----
+### Journey Principles
 
-## Proactive Behaviours
+#### Initiative Through Trust
 
-The companion should:
+AI SAHELI earns the right to offer proactive support by building trust over time rather than by increasing the frequency of interactions.
+
+#### Offer, Don't Interrupt
+
+The companion offers assistance when appropriate while respecting the user's attention and current situation.
+
+#### Reduce Effort, Preserve Choice
+
+AI SAHELI helps simplify the user's life while always preserving their freedom to decide how and when to engage.
+
+#### Respect Personal Boundaries
+
+Proactive support should always remain optional, considerate, and aligned with the user's preferences and Trust Preferences.
+
+#### Human Always in Control
+
+The user always decides whether to accept, postpone, ignore, or decline proactive support.
+
+### High-Level Flow
+
+1. AI SAHELI identifies a potential opportunity to provide proactive support.
+2. AI SAHELI considers whether offering proactive support is appropriate for the current situation.
+3. If appropriate, AI SAHELI offers gentle, non-intrusive assistance.
+4. The user accepts, declines, ignores, or postpones the interaction.
+5. AI SAHELI respectfully adapts future proactive behaviour based on the user's preferences and responses.
+
+### Proactive Behaviours
+
+AI SAHELI should:
 
 * Offer support only when it is likely to provide meaningful value.
 * Respect the user's attention and personal boundaries.
@@ -1707,251 +1567,235 @@ The companion should:
 
 The companion earns the right to be proactive through trust, not through frequency.
 
----
+### Typical Examples
 
-## Post Conditions
+* Remind the user about an important appointment later in the day.
+* Suggest leaving earlier because current traffic conditions may affect the user's usual journey.
+* Offer encouragement before a presentation the user previously discussed.
+* Gently check in after a particularly busy week without expecting a response.
+* Suggest contacting a Trusted Circle member when the user has previously indicated they would appreciate additional support.
+
+### Post Conditions
 
 * The user receives respectful and situation-appropriate proactive support.
-* The companion continues learning the user's preferences for future proactive interactions.
-* The relationship grows through timely, relevant, and welcome support.
+* AI SAHELI continues learning the user's preferences for future proactive interactions.
+* The relationship is strengthened through timely, relevant, and welcome proactive support.
 
----
+### 7.3.7 CJ-207 – Everyday Memory Timeline
 
-## MVP Notes
+**Companion Journey ID:** CJ-207
 
-For the Interview MVP, the implementation should demonstrate:
+### Objective
 
-* Gentle reminders for important user-defined events.
-* Context-aware proactive suggestions.
-* User controls for enabling, disabling, or adjusting proactive interactions.
-* Respectful handling of ignored or declined proactive support.
+Enable AI SAHELI to organise, revisit, and help users reflect on meaningful memories over time, strengthening the long-term companion relationship through shared experiences.
 
-Future versions may introduce richer initiative planning, adaptive timing, trusted circle collaboration, wellbeing check-ins, wearable integration, and more advanced relationship-aware proactive behaviours while maintaining user control and privacy.
+### Primary Actor
 
-# CJ-207 – Everyday Memory Timeline
+* Primary User
 
-## Objective
+### Supporting Actors
 
-Enable AI SAHELI to organize and revisit meaningful memories over time, helping users reflect on important life moments while strengthening the long-term companion relationship.
+* AI SAHELI
 
----
-
-## Primary Actors
-
-* User
-* AI Companion
-
----
-
-## Supporting Actors
-
-* Memory Engine
-* Conversation Engine
-
----
-
-## Preconditions
+### Preconditions
 
 * Meaningful memories have been created according to the user's memory preferences.
-* The user has permission to view and manage remembered information.
-* Privacy and trust settings are respected.
+* The user has access to review and manage remembered information.
+* Privacy and Trust Preferences are respected.
 
----
+### Journey Triggers
 
-## Journey Triggers
-
-The memory timeline may be presented when:
+The Everyday Memory Timeline may be presented when:
 
 * The user chooses to revisit remembered moments.
 * A meaningful anniversary, milestone, or related event occurs.
 * A previous memory becomes relevant to the current conversation.
-* The companion identifies an appropriate opportunity for reflection.
+* AI SAHELI identifies an appropriate opportunity for reflection.
 
----
-
-## High-Level Flow
-
-1. Meaningful memories are organized into an evolving timeline.
-2. The companion identifies memories that are relevant to the current moment or conversation.
-3. The companion presents those memories naturally and respectfully.
-4. The user may explore, edit, remove, or continue the conversation around those memories.
-5. The timeline evolves as new meaningful memories are created.
-
----
-
-## Success Criteria
-
-The journey is successful when:
+### Success Criteria
 
 * The timeline highlights meaningful life moments rather than conversation history.
-* Remembered moments strengthen the long-term relationship.
+* Remembered moments strengthen the long-term companion relationship.
 * Users remain in complete control of their memories.
 * Shared memories naturally enrich future conversations.
 * Reflection feels personal, supportive, and never intrusive.
+* The user never feels overwhelmed by unnecessary or excessive memory recall.
 
----
+### Journey Principles
 
-## Timeline Behaviours
+#### Remember the Meaning, Not Everything
 
-The companion should:
+AI SAHELI focuses on preserving meaningful experiences rather than recording every interaction.
 
-* Organize meaningful memories rather than complete conversation logs.
+#### Reflection Before Recall
+
+Memories should be revisited when they help the user reflect, celebrate, learn, or reconnect with meaningful moments.
+
+#### Shared Experiences Build Relationships
+
+Remembered experiences strengthen the relationship by creating continuity over time.
+
+#### Memory Under User Control
+
+Users remain in complete control of how memories are reviewed, edited, removed, and revisited.
+
+#### Human Always in Control
+
+The user always decides what is remembered, what is forgotten, and how memories are used.
+
+### High-Level Flow
+
+1. Meaningful memories are organised into an evolving timeline.
+2. AI SAHELI considers which remembered moments are most relevant to the current situation or conversation.
+3. AI SAHELI presents those memories naturally and respectfully.
+4. The user may explore, edit, remove, or continue the conversation around those memories.
+5. The timeline evolves as new meaningful memories are created.
+
+### Timeline Behaviours
+
+AI SAHELI should:
+
+* Organise meaningful memories rather than complete conversation logs.
 * Surface memories only when they are relevant or valuable.
 * Allow users to review, edit, and remove remembered moments.
-* Respect privacy and user preferences at all times.
+* Respect privacy and Trust Preferences at all times.
 * Focus on strengthening the relationship rather than preserving every interaction.
 
 Shared memories should strengthen the relationship rather than simply archive past conversations.
 
----
+### Typical Examples
 
-## Post Conditions
+* Remind the user of an anniversary they previously asked AI SAHELI to remember.
+* Recall a favourite holiday while discussing future travel plans.
+* Revisit an important life milestone, such as a graduation or new job, during a related conversation.
+* Allow the user to edit or remove an outdated memory.
+* Reflect on progress towards a long-term personal goal over several months.
 
-* Meaningful memories remain organized and available for future conversations.
-* The relationship develops through shared experiences over time.
-* Users continue to control how their memories are stored and revisited.
+### Post Conditions
 
----
+* Meaningful memories remain organised and available for future conversations.
+* The relationship is strengthened through meaningful shared experiences over time.
+* Users continue to control how their memories are stored, managed, and revisited.
 
-## MVP Notes
+### 7.3.8 CJ-208 – Daily Reflection
 
-For the Interview MVP, the implementation should demonstrate:
+**Companion Journey ID:** CJ-208
 
-* A simple timeline of meaningful memories.
-* Manual review, editing, and deletion of memories.
-* Natural recall of relevant memories during conversations.
-* User control over timeline visibility and memory management.
+### Objective
 
-Future versions may introduce richer categorization, life milestones, relationship timelines, multimedia memories, and collaborative memories with the Trusted Circle while maintaining user privacy and control.
+Enable AI SAHELI to encourage meaningful reflection on experiences, progress, and personal growth, helping users develop greater self-awareness while strengthening the long-term companion relationship.
 
-# CJ-208 – Daily Reflection
+### Primary Actor
 
-## Objective
+* Primary User
 
-Enable AI SAHELI to encourage meaningful reflection on experiences, progress, and personal growth, helping strengthen both the user's self-awareness and the long-term companion relationship.
+### Supporting Actors
 
----
+* AI SAHELI
 
-## Primary Actors
-
-* User
-* AI Companion
-
----
-
-## Supporting Actors
-
-* Memory Engine
-* Conversation Engine
-
----
-
-## Preconditions
+### Preconditions
 
 * Meaningful memories and experiences have accumulated over time.
 * Reflection preferences and privacy settings are respected.
-* The companion identifies an appropriate opportunity for reflection.
 
----
-
-## Journey Triggers
+### Journey Triggers
 
 Reflection may occur when:
 
 * A meaningful milestone has been reached.
 * A significant period of time has passed.
 * The user chooses to review personal progress.
-* The companion identifies an appropriate opportunity to encourage reflection.
+* AI SAHELI identifies an appropriate opportunity to encourage reflection.
 
----
-
-## High-Level Flow
-
-1. The companion identifies a meaningful experience or period for reflection.
-2. The companion invites the user into a natural reflective conversation.
-3. The user shares thoughts, insights, or chooses not to engage.
-4. The companion acknowledges progress and encourages continued growth.
-5. Any meaningful insights are handled according to the user's memory preferences.
-
----
-
-## Success Criteria
-
-The journey is successful when:
+### Success Criteria
 
 * Reflection feels natural rather than instructional.
 * The companion encourages personal growth without judgement.
 * Users remain free to participate or decline.
-* Reflection strengthens the long-term relationship.
+* Reflection strengthens the long-term companion relationship.
 * The experience feels supportive, encouraging, and meaningful.
+* Reflection never feels like an evaluation or assessment.
 
----
+### Journey Principles
 
-## Reflection Behaviours
+#### Reflection Through Understanding
 
-The companion should:
+AI SAHELI encourages thoughtful reflection by helping users explore their experiences rather than drawing conclusions for them.
+
+#### Celebrate Progress
+
+The companion recognises meaningful achievements and positive changes, no matter how small.
+
+#### Growth Without Judgement
+
+Reflection should encourage learning, self-awareness, and personal growth without criticism, comparison, or evaluation.
+
+#### Encourage, Never Evaluate
+
+AI SAHELI supports reflection through open conversation rather than scoring, measuring, or assessing the user.
+
+#### Human Always in Control
+
+The user always decides whether to participate, what they wish to reflect upon, and when the conversation ends.
+
+### High-Level Flow
+
+1. AI SAHELI considers whether the current moment is appropriate for reflection.
+2. The companion identifies a meaningful experience or period for reflection.
+3. AI SAHELI invites the user into a natural reflective conversation.
+4. The user shares thoughts, insights, or chooses not to engage.
+5. AI SAHELI acknowledges progress and encourages continued growth.
+6. Any meaningful insights are handled according to the user's memory preferences.
+
+### Reflection Behaviours
+
+AI SAHELI should:
 
 * Celebrate meaningful progress.
 * Encourage thoughtful self-reflection.
-* Recognize personal growth over time.
+* Recognise personal growth over time.
 * Respect the user's willingness to reflect.
 * Focus on learning and encouragement rather than performance or productivity.
 
-Reflection should encourage personal growth rather than simply summarizing past events.
+Reflection should encourage personal growth rather than simply summarising past events.
 
----
+### Typical Examples
 
-## Post Conditions
+* Reflect on progress towards a personal goal over the past month.
+* Celebrate the anniversary of completing an important life milestone.
+* Encourage the user to reflect on lessons learned from a recent challenge.
+* Revisit a meaningful achievement from earlier in the year.
+* Respect the user's decision not to participate in a reflective conversation.
+
+### Post Conditions
 
 * The user gains greater awareness of their experiences and progress.
-* The companion develops a richer understanding of the user's values, goals, and growth.
-* The relationship continues to strengthen through shared reflection.
+* AI SAHELI develops a richer understanding of the user's values, goals, and growth.
+* The relationship is strengthened through meaningful shared reflection over time.
 
----
+### 7.3.9 CJ-209 – Conversation Continuity
 
-## MVP Notes
+**Companion Journey ID:** CJ-209
 
-For the Interview MVP, the implementation should demonstrate:
+### Objective
 
-* Simple milestone-based reflection.
-* Natural conversational prompts.
-* Recognition of meaningful progress.
-* Optional participation in reflection.
+Enable AI SAHELI to naturally continue meaningful conversations across time so the relationship feels seamless, without requiring users to restart or repeat important context.
 
-Future versions may introduce richer life reviews, long-term growth insights, goal reflection, wellbeing reflection, trusted circle reflections, and adaptive coaching while maintaining user privacy and control.
+### Primary Actor
 
-# CJ-209 – Conversation Continuity
+* Primary User
 
-## Objective
+### Supporting Actors
 
-Enable AI SAHELI to naturally continue meaningful conversations across time, helping users feel that the relationship continues seamlessly without requiring them to restart or repeat important context.
+* AI SAHELI
 
----
-
-## Primary Actors
-
-* User
-* AI Companion
-
----
-
-## Supporting Actors
-
-* Conversation Engine
-* Memory Engine
-* Context Engine
-
----
-
-## Preconditions
+### Preconditions
 
 * Previous meaningful conversations or memories exist.
-* The companion has permission to use remembered information according to the user's privacy and memory preferences.
+* AI SAHELI has permission to use remembered information in accordance with the user's memory preferences, Trust Preferences, and privacy settings.
 * A new interaction begins after a period of time.
 
----
-
-## Journey Triggers
+### Journey Triggers
 
 Conversation continuity may occur when:
 
@@ -1960,157 +1804,164 @@ Conversation continuity may occur when:
 * A meaningful follow-up naturally fits the current interaction.
 * The user resumes an ongoing topic or life event.
 
----
-
-## High-Level Flow
-
-1. The user starts or resumes a conversation.
-2. The companion identifies any relevant previous conversations or meaningful memories.
-3. The companion naturally reconnects the conversation where appropriate.
-4. The conversation continues based on the user's current interests and responses.
-5. The companion allows the discussion to evolve naturally without forcing previous topics.
-
----
-
-## Success Criteria
-
-The journey is successful when:
+### Success Criteria
 
 * Users do not feel they are starting over with each conversation.
 * Relevant previous discussions are recalled naturally.
 * The companion avoids asking users to repeat information it already understands.
 * Previous topics are revisited only when they add value to the current conversation.
-* Conversation continuity strengthens the long-term relationship.
+* The user always feels free to move the conversation in a different direction.
+* Conversation continuity strengthens the long-term companion relationship.
 
----
+### Journey Principles
 
-## Conversation Continuity Behaviours
+#### Continue the Relationship, Not Just the Conversation
 
-The companion should:
+AI SAHELI maintains continuity in the relationship rather than simply reconnecting individual conversations.
+
+#### Context Before Repetition
+
+The companion uses relevant remembered context to reduce unnecessary repetition while respecting user privacy and preferences.
+
+#### Continuity Without Constraint
+
+Previous conversations should support the current interaction without limiting the user's freedom to explore new topics.
+
+#### Respect the User's Direction
+
+AI SAHELI follows the user's interests and priorities, allowing conversations to naturally evolve or change direction.
+
+#### Human Always in Control
+
+The user always decides whether to continue, revisit, or move away from previous conversations.
+
+### High-Level Flow
+
+1. The user starts or resumes a conversation.
+2. AI SAHELI considers whether relevant previous conversations or meaningful memories would add value to the current interaction.
+3. AI SAHELI naturally reconnects the conversation where appropriate.
+4. The conversation continues based on the user's current interests and responses.
+5. AI SAHELI allows the discussion to evolve naturally without forcing previous topics.
+
+### Conversation Continuity Behaviours
+
+AI SAHELI should:
 
 * Reconnect naturally with meaningful previous conversations.
-* Prioritize the user's current situation over historical discussions.
+* Prioritise the user's current situation over historical discussions.
 * Avoid forcing unrelated or outdated topics into new conversations.
 * Respect the user's choice to continue, change, or end a topic.
 * Maintain continuity while allowing conversations to evolve naturally.
 
 The companion should resume the relationship rather than simply resume a previous conversation.
 
----
+### Typical Examples
 
-## Post Conditions
+* Continue discussing a holiday the user mentioned several days earlier without asking them to repeat the details.
+* Follow up on the outcome of a job interview after the user returns to the conversation.
+* Resume planning for a family event after a break of several weeks.
+* Respect the user's decision to change the subject without repeatedly returning to previous topics.
+* Reconnect with a long-term personal goal when it naturally becomes relevant.
+
+### Post Conditions
 
 * The conversation continues naturally with appropriate continuity.
-* The relationship feels ongoing rather than session-based.
-* Future interactions continue to benefit from meaningful continuity while respecting user privacy and preferences.
+* The relationship continues to feel ongoing rather than session-based.
+* Future interactions continue to benefit from meaningful continuity while respecting the user's memory preferences, Trust Preferences, and privacy settings.
 
----
+### 7.3.10 CJ-210 – Respecting Personal Space
 
-## MVP Notes
+**Companion Journey ID:** CJ-210
 
-For the Interview MVP, the implementation should demonstrate:
+### Objective
 
-* Natural follow-up to meaningful previous conversations.
-* Seamless continuation of long-running topics.
-* Relevant recall of important memories without requiring user repetition.
-* Respectful transition when the user chooses a new direction.
+Enable AI SAHELI to respect the user's attention, boundaries, and personal space by engaging thoughtfully, avoiding unnecessary interruptions, and recognising when remaining silent is the most supportive response.
 
-Future versions may introduce richer long-term continuity, cross-device conversations, multimodal continuity, trusted circle continuity, and adaptive relationship-aware follow-ups while maintaining user control and privacy.
+### Primary Actor
 
-# CJ-210 – Respecting Personal Space
+* Primary User
 
-## Objective
+### Supporting Actors
 
-Enable AI SAHELI to respect the user's attention, boundaries, and personal space by engaging thoughtfully, avoiding unnecessary interruptions, and recognizing when remaining silent is the most supportive response.
+* AI SAHELI
 
----
-
-## Primary Actors
-
-* User
-* AI Companion
-
----
-
-## Supporting Actors
-
-* Proactive Planning Engine
-* Conversation Engine
-* Situational Reasoning & Decision Engine
-
----
-
-## Preconditions
+### Preconditions
 
 * A trusted companion relationship has been established.
 * User preferences for notifications, proactive support, and privacy have been configured.
-* The companion has determined that respecting the user's space is appropriate.
+* AI SAHELI has sufficient understanding to determine that respecting the user's personal space may be appropriate.
 
----
-
-## Journey Triggers
+### Journey Triggers
 
 Respect for personal space should be considered when:
 
-* The companion evaluates whether to initiate an interaction.
+* AI SAHELI evaluates whether to initiate an interaction.
 * The user ignores or declines proactive support.
 * The user is likely to be busy, unavailable, or focused.
 * User preferences indicate reduced interaction.
-* The companion determines that remaining silent is more appropriate than interrupting.
+* AI SAHELI determines that remaining silent is more appropriate than interrupting.
 
----
-
-## High-Level Flow
-
-1. The companion considers a potential interaction.
-2. The companion evaluates whether engagement is appropriate.
-3. If engagement would not provide meaningful value, the companion respectfully remains silent.
-4. If engagement is appropriate, the companion interacts in a non-intrusive manner.
-5. The companion continues adapting to the user's preferences over time.
-
----
-
-## Success Criteria
-
-The journey is successful when:
+### Success Criteria
 
 * Users feel supported without feeling interrupted.
 * The companion respects personal boundaries and attention.
 * Ignored or declined interactions are respected.
 * The companion avoids unnecessary engagement.
+* Users never feel pressured to engage with AI SAHELI.
 * Trust is strengthened through thoughtful restraint.
 
----
+### Journey Principles
 
-## Personal Space Behaviours
+#### Respect Before Engagement
 
-The companion should:
+AI SAHELI considers whether an interaction will genuinely benefit the user before choosing to engage.
 
-* Respect the user's attention and boundaries.
+#### Silence Can Be Support
+
+Remaining silent can sometimes provide greater value than initiating an unnecessary interaction.
+
+#### Attention Is Valuable
+
+The companion respects the user's time, focus, and personal boundaries as valuable resources.
+
+#### Presence Without Pressure
+
+AI SAHELI remains available and supportive without demanding the user's attention.
+
+#### Human Always in Control
+
+The user always decides when, how, and whether to engage with AI SAHELI.
+
+### High-Level Flow
+
+1. AI SAHELI considers a potential interaction.
+2. AI SAHELI considers whether engaging would provide meaningful value to the user.
+3. If engagement would not provide meaningful value, AI SAHELI respectfully remains silent.
+4. If engagement is appropriate, AI SAHELI interacts in a thoughtful and non-intrusive manner.
+5. AI SAHELI continues adapting to the user's preferences over time.
+
+### Personal Space Behaviours
+
+AI SAHELI should:
+
+* Respect the user's attention and personal boundaries.
 * Avoid competing for the user's time.
-* Learn from user interaction preferences.
+* Learn from the user's interaction preferences.
 * Adapt the timing and frequency of engagement over time.
-* Recognize that silence can sometimes be the most supportive response.
+* Recognise that silence can sometimes be the most supportive response.
 
 Respect is demonstrated not only by knowing when to engage, but also by knowing when not to.
 
----
+### Typical Examples
 
-## Post Conditions
+* Delay a non-essential notification while the user is in a meeting.
+* Avoid interrupting during configured quiet hours.
+* Respect the user's decision to ignore previous proactive suggestions.
+* Wait until a more appropriate time before following up on an earlier conversation.
+* Remain silent when no interaction would meaningfully benefit the user.
 
-* The relationship continues with mutual trust and respect.
-* Future interactions better reflect the user's preferences and boundaries.
-* The companion maintains a supportive presence without becoming intrusive.
+### Post Conditions
 
----
-
-## MVP Notes
-
-For the Interview MVP, the implementation should demonstrate:
-
-* User-configurable proactive interaction preferences.
-* Respectful handling of ignored or declined proactive suggestions.
-* Reduced interruptions when engagement is unlikely to be helpful.
-* Simple controls for notification frequency and quiet periods.
-
-Future versions may introduce adaptive interruption policies, attention-aware engagement, wellbeing-sensitive quiet periods, trusted circle exceptions for emergencies, and richer personalization while maintaining user control and privacy.
+* The relationship continues to strengthen through mutual trust, respect, and thoughtful companionship.
+* Future interactions better reflect the user's preferences and personal boundaries.
+* AI SAHELI maintains a supportive presence without becoming intrusive.
