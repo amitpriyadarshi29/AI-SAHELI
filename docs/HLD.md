@@ -849,3 +849,895 @@ Future versions of the architecture are expected to introduce new capabilities w
 Backward-compatible architectural evolution should be preferred whenever practical.
 
 This High-Level Design serves as the architectural foundation for the long-term evolution of AI SAHELI.
+
+
+# 2. Architecture Principles
+
+## 2.1 Purpose
+
+This section defines the architectural principles that govern the design, implementation, and evolution of AI SAHELI.
+
+These principles act as decision-making rules for all major platform components, including:
+
+* Companion Runtime
+* Conversation
+* Memory
+* Context
+* Situational Reasoning
+* Trust
+* Safety
+* Personalisation
+* Proactive Assistance
+* Android Integration
+* AI Runtime
+* Backend Services
+* Security
+* Deployment
+* Cross-Device Communication
+
+The principles are intended to ensure that architectural decisions remain aligned with the AI SAHELI product philosophy, even as technologies, platforms, AI models, and implementation details evolve.
+
+When multiple technical solutions are possible, the option most consistent with these principles should normally be preferred.
+
+---
+
+## 2.2 Principle Hierarchy
+
+AI SAHELI’s architecture is guided by three connected layers of principles:
+
+1. **Human Principles**
+   Protect user control, dignity, privacy, safety, and trust.
+
+2. **Companion Intelligence Principles**
+   Govern how AI SAHELI understands, reasons, remembers, assists, and learns.
+
+3. **Engineering Principles**
+   Govern how the platform is designed, deployed, secured, and evolved.
+
+```mermaid
+flowchart TB
+    HP["Human Principles<br/>Control • Privacy • Safety • Transparency"]
+    CP["Companion Intelligence Principles<br/>Context • Memory • Reasoning • Trust"]
+    EP["Engineering Principles<br/>Modularity • Local-First • Security • Extensibility"]
+
+    HP --> CP
+    CP --> EP
+    HP --> EP
+
+    EP --> SYS["AI SAHELI Platform Architecture"]
+```
+
+The hierarchy means that engineering convenience must not override human-centred principles.
+
+For example:
+
+* A technically powerful cloud model must not be selected if it creates unacceptable privacy or availability risks.
+* A proactive feature must not be implemented if the user cannot understand, control, or disable it.
+* An AI-generated decision must not directly trigger a safety-critical action without appropriate deterministic validation.
+
+---
+
+## 2.3 AI Companion First
+
+AI SAHELI must be architected as an **AI Companion Platform**, not as a collection of unrelated assistant features.
+
+A traditional assistant generally follows a command-response pattern:
+
+```text
+User Command
+     ↓
+Intent Detection
+     ↓
+Action
+     ↓
+Response
+```
+
+AI SAHELI follows a broader companion model:
+
+```mermaid
+flowchart LR
+    U["User Interaction"] --> C["Conversation"]
+    C --> CTX["Context"]
+    CTX --> M["Memory"]
+    M --> R["Situational Reasoning"]
+    R --> T["Trust Evaluation"]
+    T --> S["Safety Evaluation"]
+    S --> A["Action or Response"]
+    A --> U
+```
+
+The companion model considers more than the current command.
+
+It may consider:
+
+* Current conversation state
+* User preferences
+* Recent interactions
+* Relationship permissions
+* Device state
+* Time and location
+* Safety context
+* Confidence and uncertainty
+* Available local and cloud capabilities
+
+### Architectural Implications
+
+* Companion intelligence must be separated from platform-specific integration.
+* Conversation, memory, context, trust, and safety must be explicit architectural components.
+* User actions should not be treated as isolated events when relevant context exists.
+* The architecture must support continuity across interactions and, in future, across devices.
+
+---
+
+## 2.4 Human Always in Control
+
+AI SAHELI must support and strengthen human decision-making rather than silently replacing it.
+
+The user remains the primary authority over:
+
+* Permissions
+* Personal data
+* Memory
+* Trusted relationships
+* Information sharing
+* Proactive assistance
+* Safety preferences
+* Emergency cancellation
+* Device actions
+
+```mermaid
+flowchart TD
+    AI["AI SAHELI Suggests or Prepares Action"]
+    CHECK{"Does the action require<br/>user control or consent?"}
+    CONFIRM["Request Confirmation"]
+    EXECUTE["Execute Authorised Action"]
+    CANCEL["Cancel or Modify"]
+    AUDIT["Record Significant Action"]
+
+    AI --> CHECK
+    CHECK -- Yes --> CONFIRM
+    CONFIRM -- Approved --> EXECUTE
+    CONFIRM -- Rejected --> CANCEL
+    CHECK -- No, previously authorised --> EXECUTE
+    EXECUTE --> AUDIT
+```
+
+### Architectural Implications
+
+* Significant actions must pass through a policy, consent, or confirmation layer.
+* Permissions must be explicit, reviewable, and revocable.
+* Emergency escalation must provide cancellation where feasible.
+* Proactive assistance must be dismissible and configurable.
+* The system must distinguish between suggestion, preparation, and execution.
+* Previously authorised safety policies must be represented explicitly rather than inferred informally.
+
+---
+
+## 2.5 Privacy by Design
+
+Privacy must be embedded into every architectural layer.
+
+AI SAHELI should collect, process, retain, and share only the information necessary to deliver an authorised capability.
+
+```mermaid
+flowchart LR
+    INPUT["User or Sensor Data"]
+    MIN["Data Minimisation"]
+    LOCAL["Local Processing"]
+    POLICY["Consent and Policy Check"]
+    STORE["Secure Storage"]
+    SHARE["Authorised Sharing"]
+    DELETE["Retention or Deletion"]
+
+    INPUT --> MIN
+    MIN --> LOCAL
+    LOCAL --> POLICY
+    POLICY --> STORE
+    POLICY --> SHARE
+    STORE --> DELETE
+```
+
+### Privacy Rules
+
+* Prefer local processing when it satisfies the functional requirement.
+* Do not store information solely because it may become useful later.
+* Separate temporary context from persistent memory.
+* Require clear authorisation before sharing personal information.
+* Apply purpose limitation to collected data.
+* Allow users to inspect, correct, or remove retained information where appropriate.
+* Protect sensitive data both at rest and in transit.
+* Avoid unnecessary dependency on third-party AI providers.
+
+### Architectural Implications
+
+* Memory must support retention policies and deletion.
+* Context must not automatically become permanent memory.
+* Trust and consent checks must precede information sharing.
+* Cloud-bound data must be minimised and classified.
+* Sensitive processing boundaries must be visible in architecture diagrams.
+* Privacy controls must apply consistently across Android, backend, AI, and future devices.
+
+---
+
+## 2.6 Local-First and Cloud-Optional
+
+Essential AI SAHELI capabilities should operate locally whenever technically feasible.
+
+The cloud may enhance intelligence, synchronisation, scalability, and collaboration, but core companion and safety behaviour must not depend exclusively on cloud availability.
+
+```mermaid
+flowchart TB
+    REQUEST["User Request or Safety Event"]
+    LOCAL{"Can it be handled<br/>locally?"}
+    DEVICE["On-Device Processing"]
+    CLOUD{"Is cloud use allowed<br/>and available?"}
+    REMOTE["Cloud or Remote Service"]
+    FALLBACK["Local Fallback or Graceful Degradation"]
+    RESULT["Response or Action"]
+
+    REQUEST --> LOCAL
+    LOCAL -- Yes --> DEVICE
+    DEVICE --> RESULT
+    LOCAL -- No --> CLOUD
+    CLOUD -- Yes --> REMOTE
+    REMOTE --> RESULT
+    CLOUD -- No --> FALLBACK
+    FALLBACK --> RESULT
+```
+
+### Local-Mandatory Capabilities
+
+Where feasible, the following should remain locally available:
+
+* Emergency keyword handling
+* Emergency countdown
+* Cancellation
+* Basic Android navigation
+* Preset contact access
+* Call initiation
+* SMS initiation
+* Core safety state
+* Basic trust configuration
+* Basic command handling
+* Local text-to-speech
+* Essential audit records
+
+### Cloud-Optional Capabilities
+
+Cloud services may enhance:
+
+* Advanced language understanding
+* Large language model inference
+* Model updates
+* Memory synchronisation
+* Cross-device continuity
+* Remote notifications
+* Analytics and operational monitoring
+* Trusted Circle collaboration
+
+### Cloud-Required Capabilities
+
+Some capabilities inherently require remote coordination, including:
+
+* Multi-user invitation delivery
+* Cross-device synchronisation
+* Remote Trusted Circle interaction
+* Account recovery
+* Shared cloud services
+* Remote configuration management
+
+### Architectural Implications
+
+* Components must expose local and remote execution strategies behind stable interfaces.
+* Cloud failure must not cause uncontrolled system behaviour.
+* Safety flows must define offline and degraded modes.
+* Network availability must be treated as context, not as an assumption.
+* Remote processing must be governed by privacy, consent, latency, cost, and reliability policies.
+
+---
+
+## 2.7 Safety by Design
+
+Safety is a system-wide architectural responsibility.
+
+It must not be implemented as a single emergency feature or isolated module.
+
+```mermaid
+flowchart LR
+    OBS["Observe"]
+    DETECT["Detect Signal"]
+    ASSESS["Assess Risk"]
+    VERIFY["Verify or Confirm"]
+    RESPOND["Respond"]
+    ESCALATE["Escalate"]
+    AUDIT["Audit and Review"]
+
+    OBS --> DETECT
+    DETECT --> ASSESS
+    ASSESS --> VERIFY
+    VERIFY --> RESPOND
+    RESPOND --> ESCALATE
+    ESCALATE --> AUDIT
+```
+
+### Safety Principles
+
+* Safety-critical actions should be deterministic wherever practical.
+* Generative AI must not be the sole authority for emergency escalation.
+* False positives and false negatives must both be considered.
+* Users should be able to cancel or correct an action when time and circumstances permit.
+* Safety workflows must define timeout, retry, failure, and fallback behaviour.
+* Significant safety actions must be auditable.
+* Failure of one non-essential component should not disable the complete safety workflow.
+
+### Architectural Implications
+
+* Safety logic must be isolated from conversational creativity.
+* Emergency states must be represented using explicit state machines.
+* Safety workflows must have clear escalation policies.
+* Local safety handling must remain available during network loss.
+* Trust and consent rules must be integrated into escalation.
+* Safety events must receive higher processing priority than routine companion interactions.
+
+---
+
+## 2.8 Progressive Trust
+
+Trust must be established incrementally through explicit relationships, consent, and observed user-approved interactions.
+
+Being part of a Trusted Circle must not automatically provide unrestricted access to personal data or companion capabilities.
+
+```mermaid
+flowchart LR
+    NONE["No Relationship"]
+    INVITED["Invitation Pending"]
+    CONNECTED["Trusted Relationship"]
+    PERMISSION["Capability-Specific Permission"]
+    ACTIVE["Authorised Interaction"]
+    REVIEW["Review or Revoke"]
+
+    NONE --> INVITED
+    INVITED --> CONNECTED
+    CONNECTED --> PERMISSION
+    PERMISSION --> ACTIVE
+    ACTIVE --> REVIEW
+    REVIEW --> PERMISSION
+    REVIEW --> NONE
+```
+
+### Architectural Implications
+
+* Relationship state and permission state must be separate.
+* Permissions should be capability-specific.
+* Trust must be revocable.
+* Shared information must be limited by purpose and scope.
+* Emergency roles must be explicitly assigned.
+* Trust changes must be auditable.
+* The platform must support different trust levels for different users and use cases.
+
+---
+
+## 2.9 Relationship Before Permission
+
+Permissions involving another person should be granted within the context of a recognised relationship.
+
+For example, adding someone to the Trusted Circle establishes a relationship but does not automatically grant:
+
+* Location access
+* Memory access
+* Conversation access
+* Health-related information
+* Emergency authority
+* Device control
+
+```mermaid
+flowchart TD
+    REL["Trusted Relationship Established"]
+    CAP["Capability Requested"]
+    CONSENT["Primary User Consent"]
+    POLICY["Scope and Duration Defined"]
+    ACCESS["Authorised Access"]
+    REVOKE["Review, Expire, or Revoke"]
+
+    REL --> CAP
+    CAP --> CONSENT
+    CONSENT --> POLICY
+    POLICY --> ACCESS
+    ACCESS --> REVOKE
+```
+
+### Architectural Implications
+
+* Identity, relationship, permission, and capability must be separate domain concepts.
+* Permission checks must include relationship state.
+* Access policies must support purpose, duration, and scope.
+* Emergency access must be distinguishable from routine access.
+* Shared data must not exceed the permission granted.
+
+---
+
+## 2.10 Modular Companion Intelligence
+
+Companion intelligence must be decomposed into specialised, independently evolvable components.
+
+```mermaid
+flowchart TB
+    CR["Companion Runtime"]
+
+    CONV["Conversation"]
+    MEM["Memory"]
+    CTX["Context"]
+    REASON["Situational Reasoning"]
+    TRUST["Trust"]
+    SAFE["Safety"]
+    PERS["Personalisation"]
+    PRO["Proactive Assistance"]
+
+    CR --> CONV
+    CR --> MEM
+    CR --> CTX
+    CR --> REASON
+    CR --> TRUST
+    CR --> SAFE
+    CR --> PERS
+    CR --> PRO
+```
+
+### Architectural Implications
+
+* Each intelligence capability must have a clear responsibility.
+* Components must communicate through defined contracts.
+* No single component should become an uncontrolled “AI brain.”
+* AI models must be replaceable without redesigning the complete platform.
+* Safety and trust must remain independently enforceable.
+* Context and memory must remain separate concepts.
+* Platform-specific code must not be embedded directly into reasoning logic.
+
+---
+
+## 2.11 Platform Independence
+
+AI SAHELI is Android-first but platform-independent.
+
+Android is the initial implementation platform, but companion intelligence must not become inseparable from Android-specific APIs.
+
+```mermaid
+flowchart TB
+    INTEL["Companion Intelligence"]
+
+    CONTRACT["Platform Capability Interfaces"]
+
+    ANDROID["Android"]
+    WEARABLE["Wearable"]
+    WEB["Web"]
+    HOME["Smart Home"]
+    AUTO["Automotive"]
+    FUTURE["Future Platform"]
+
+    INTEL --> CONTRACT
+    CONTRACT --> ANDROID
+    CONTRACT --> WEARABLE
+    CONTRACT --> WEB
+    CONTRACT --> HOME
+    CONTRACT --> AUTO
+    CONTRACT --> FUTURE
+```
+
+### Architectural Implications
+
+* Platform capabilities must be exposed through abstractions.
+* Android-specific implementations must remain inside the Android Integration Layer.
+* Companion logic should depend on capabilities rather than concrete Android classes.
+* Device capabilities should be discoverable through a capability registry.
+* Platform differences should be handled through adapters.
+* Future devices should be able to participate without replacing the companion intelligence architecture.
+
+---
+
+## 2.12 Event-Driven Coordination
+
+AI SAHELI must support event-driven coordination between platform services and companion intelligence.
+
+Relevant events may include:
+
+* User speech detected
+* Wake word detected
+* Intent recognised
+* Application launched
+* Context changed
+* Permission changed
+* Emergency keyword detected
+* Countdown started
+* Countdown cancelled
+* Escalation initiated
+* Network status changed
+* Trusted Circle relationship updated
+* Memory updated
+
+```mermaid
+flowchart LR
+    PRODUCERS["Event Producers"]
+    BUS["Event and Message Coordination"]
+    CONSUMERS["Interested Components"]
+
+    PRODUCERS --> BUS
+    BUS --> CONSUMERS
+
+    subgraph PRODUCERS
+        VOICE["Voice"]
+        DEVICE["Device"]
+        USER["User Action"]
+        SENSOR["Context or Sensor"]
+    end
+
+    subgraph CONSUMERS
+        CONV["Conversation"]
+        CTX["Context"]
+        SAFE["Safety"]
+        TRUST["Trust"]
+        AUDIT["Audit"]
+    end
+```
+
+### Architectural Implications
+
+* Components should not require direct knowledge of every other component.
+* Events must use stable, versionable contracts.
+* Safety-critical events may require priority handling.
+* Event delivery guarantees must match the importance of the event.
+* Audit events must be distinguishable from operational events.
+* Event loops and duplicate processing must be prevented.
+
+Event-driven design does not imply that every interaction must be asynchronous. Direct synchronous calls remain appropriate when an immediate response or transaction boundary is required.
+
+---
+
+## 2.13 Explainable and Transparent Behaviour
+
+Users should be able to understand significant AI SAHELI actions.
+
+The platform should provide clear explanations for:
+
+* Why a permission is requested
+* Why information is being shared
+* Why a safety workflow was triggered
+* Why a Trusted Contact was notified
+* Why a proactive suggestion was offered
+* What information influenced a response
+* Whether an action was local or cloud-assisted
+
+```mermaid
+flowchart LR
+    INPUT["Input and Context"]
+    DECISION["Decision or Recommendation"]
+    REASON["Human-Understandable Reason"]
+    ACTION["Action"]
+    AUDIT["Audit Record"]
+
+    INPUT --> DECISION
+    DECISION --> REASON
+    REASON --> ACTION
+    ACTION --> AUDIT
+```
+
+### Architectural Implications
+
+* Significant actions should include reason metadata.
+* Trust, safety, and permission decisions must be inspectable.
+* The system should distinguish facts, assumptions, predictions, and uncertainty.
+* Audit records should support later review.
+* Explanations should be appropriate to the user’s language and digital literacy.
+* Technical transparency must not expose sensitive internal security information.
+
+---
+
+## 2.14 Graceful Degradation
+
+AI SAHELI should preserve the most important available functionality when a component, model, service, permission, device, or network connection is unavailable.
+
+```mermaid
+flowchart TD
+    REQUEST["Requested Capability"]
+    FULL{"Full capability available?"}
+    FULLMODE["Full Experience"]
+    REDUCED{"Safe reduced mode available?"}
+    LIMITED["Reduced Local Capability"]
+    INFORM["Explain Limitation"]
+    STOP["Stop Safely"]
+
+    REQUEST --> FULL
+    FULL -- Yes --> FULLMODE
+    FULL -- No --> REDUCED
+    REDUCED -- Yes --> LIMITED
+    LIMITED --> INFORM
+    REDUCED -- No --> STOP
+    STOP --> INFORM
+```
+
+### Examples
+
+* If cloud AI is unavailable, use local intent handling where possible.
+* If speech recognition fails, request repetition or provide a simpler interaction path.
+* If location permission is unavailable, continue emergency escalation without location rather than abandoning the workflow.
+* If SMS fails, attempt an authorised phone call.
+* If a non-essential personalisation component fails, preserve the core conversation.
+* If an unsafe action cannot be validated, stop safely and inform the user.
+
+### Architectural Implications
+
+* Components must define fallback behaviour.
+* Failure boundaries must be explicit.
+* User-facing limitations must be communicated clearly.
+* Reduced functionality must never create unsafe assumptions.
+* Safety fallbacks must be tested independently.
+
+---
+
+## 2.15 Security by Design
+
+Security must be integrated into architecture, implementation, deployment, and operations.
+
+```mermaid
+flowchart TB
+    ID["Identity"]
+    AUTHN["Authentication"]
+    AUTHZ["Authorisation"]
+    DATA["Data Protection"]
+    EXEC["Secure Execution"]
+    AUDIT["Audit and Monitoring"]
+
+    ID --> AUTHN
+    AUTHN --> AUTHZ
+    AUTHZ --> DATA
+    DATA --> EXEC
+    EXEC --> AUDIT
+```
+
+### Architectural Implications
+
+* Apply least privilege.
+* Separate authentication from authorisation.
+* Encrypt sensitive data at rest and in transit.
+* Protect local secrets using platform-secure storage.
+* Validate data crossing trust boundaries.
+* Restrict external AI and backend access.
+* Maintain auditable security-sensitive actions.
+* Avoid embedding credentials or secrets in client applications.
+* Define threat models for safety, trust, memory, and cross-device capabilities.
+
+---
+
+## 2.16 Replaceable AI Models
+
+AI models and AI providers must be treated as replaceable implementation components rather than permanent architectural dependencies.
+
+```mermaid
+flowchart LR
+    CAP["AI Capability Contract"]
+    ROUTER["Model Router"]
+    LOCAL["Local Model"]
+    CLOUD1["Cloud Provider A"]
+    CLOUD2["Cloud Provider B"]
+    FUTURE["Future Model"]
+
+    CAP --> ROUTER
+    ROUTER --> LOCAL
+    ROUTER --> CLOUD1
+    ROUTER --> CLOUD2
+    ROUTER --> FUTURE
+```
+
+### Architectural Implications
+
+* Components should request capabilities rather than specific model names.
+* Model routing should consider privacy, latency, availability, accuracy, and cost.
+* Model input and output contracts should be normalised.
+* AI-provider-specific logic should remain inside adapters.
+* Safety checks must remain independent of the selected generative model.
+* Model upgrades should not require redesigning conversation or companion orchestration.
+
+---
+
+## 2.17 Observable and Auditable
+
+The platform must provide sufficient visibility to understand system behaviour, diagnose failures, review safety events, and improve reliability.
+
+Observability must be implemented without violating privacy principles.
+
+```mermaid
+flowchart LR
+    COMPONENTS["Platform Components"]
+    LOGS["Structured Logs"]
+    METRICS["Metrics"]
+    TRACES["Traces"]
+    AUDIT["Security and Safety Audit"]
+    OPS["Operational Review"]
+
+    COMPONENTS --> LOGS
+    COMPONENTS --> METRICS
+    COMPONENTS --> TRACES
+    COMPONENTS --> AUDIT
+
+    LOGS --> OPS
+    METRICS --> OPS
+    TRACES --> OPS
+    AUDIT --> OPS
+```
+
+### Architectural Implications
+
+* Operational logs and user audit history must be treated differently.
+* Sensitive user content should not be logged unnecessarily.
+* Safety and trust actions require durable audit records.
+* Component health and failure states should be measurable.
+* Distributed interactions should support correlation identifiers.
+* Logs must support retention and deletion policies.
+
+---
+
+## 2.18 Extensible Through Stable Contracts
+
+The architecture must support new devices, models, workflows, languages, and companion capabilities through stable contracts.
+
+```mermaid
+flowchart TB
+    CORE["Stable Core Contracts"]
+    EXT1["New Language"]
+    EXT2["New Device"]
+    EXT3["New AI Model"]
+    EXT4["New Safety Workflow"]
+    EXT5["New Companion Capability"]
+
+    CORE --> EXT1
+    CORE --> EXT2
+    CORE --> EXT3
+    CORE --> EXT4
+    CORE --> EXT5
+```
+
+### Architectural Implications
+
+* Interfaces must be capability-oriented.
+* Contracts should be versionable.
+* Extensions must not bypass trust, safety, or privacy controls.
+* Plugin and adapter mechanisms should be used where appropriate.
+* Core domain concepts must remain stable.
+* Backward compatibility should be preferred where practical.
+
+---
+
+## 2.19 Simple First, Evolvable Always
+
+The complete architecture should be designed for long-term evolution, but the initial implementation must avoid unnecessary complexity.
+
+The principle is:
+
+> Design for the future without implementing the future prematurely.
+
+```mermaid
+flowchart LR
+    TARGET["Complete Target Architecture"]
+    MVP["Minimal Production-Quality Slice"]
+    NEXT["Incremental Capability"]
+    FUTURE["Long-Term Platform"]
+
+    TARGET --> MVP
+    MVP --> NEXT
+    NEXT --> FUTURE
+```
+
+### Architectural Implications
+
+* The MVP should implement stable interfaces even when only one implementation exists.
+* Future capabilities may be represented as extension points rather than complete services.
+* Infrastructure should not be introduced without a current or clearly anticipated requirement.
+* Architectural compatibility is required; speculative implementation is not.
+* The platform should prefer simple, testable designs over premature distribution or abstraction.
+
+---
+
+## 2.20 Principle Interaction
+
+Architecture principles must not be applied independently.
+
+For example:
+
+* Local-first must be balanced with device limitations.
+* Explainability must be balanced with security.
+* Proactive assistance must be balanced with human control.
+* Memory must be balanced with privacy.
+* Event-driven design must be balanced with simplicity.
+* Extensibility must be balanced with maintainability.
+* Advanced AI capability must be balanced with safety and determinism.
+
+The following diagram summarises the principle interaction.
+
+```mermaid
+flowchart TB
+    HUMAN["Human Control"]
+    PRIVACY["Privacy"]
+    SAFETY["Safety"]
+    TRUST["Progressive Trust"]
+    LOCAL["Local-First"]
+    MODULAR["Modularity"]
+    EXPLAIN["Transparency"]
+    EXTEND["Extensibility"]
+
+    HUMAN --- PRIVACY
+    HUMAN --- SAFETY
+    HUMAN --- TRUST
+
+    PRIVACY --- LOCAL
+    SAFETY --- LOCAL
+    TRUST --- EXPLAIN
+
+    LOCAL --- MODULAR
+    MODULAR --- EXTEND
+    EXPLAIN --- SAFETY
+    EXTEND --- HUMAN
+```
+
+When principles conflict, the following order should generally guide resolution:
+
+1. User safety
+2. Human control and consent
+3. Privacy and security
+4. Reliability
+5. Product behaviour
+6. Maintainability
+7. Performance and cost
+8. Implementation convenience
+
+This order is guidance rather than an automatic rule. Significant trade-offs should be documented through an Architecture Decision Record.
+
+---
+
+## 2.21 Interview MVP Application
+
+The Interview MVP applies these principles in a focused form.
+
+| Principle             | Interview MVP Application                                                     |
+| --------------------- | ----------------------------------------------------------------------------- |
+| AI Companion First    | Uses a basic Companion Runtime rather than independent command handlers.      |
+| Human in Control      | Emergency countdown is cancellable.                                           |
+| Privacy by Design     | Essential processing and configuration remain local.                          |
+| Local-First           | Voice commands, navigation, and safety flow operate on-device where feasible. |
+| Safety by Design      | Emergency flow uses explicit state and deterministic escalation.              |
+| Progressive Trust     | Uses a predefined Trusted Contact with limited scope.                         |
+| Modular Intelligence  | Conversation, context, trust, and safety have separate responsibilities.      |
+| Platform Independence | Android capabilities are isolated behind integration interfaces.              |
+| Graceful Degradation  | Core device functions continue without backend dependency.                    |
+| Replaceable AI        | Speech and intent components are accessed through capability interfaces.      |
+| Observability         | Significant safety transitions and failures are recorded.                     |
+| Simple but Evolvable  | Only the first production-quality architectural slice is implemented.         |
+
+---
+
+## 2.22 Summary
+
+The architecture principles defined in this section establish the decision framework for the complete AI SAHELI platform.
+
+The most important principles are:
+
+* AI Companion First
+* Human Always in Control
+* Privacy by Design
+* Local-First and Cloud-Optional
+* Safety by Design
+* Progressive Trust
+* Relationship Before Permission
+* Modular Companion Intelligence
+* Android-First but Platform-Independent
+* Event-Driven Coordination
+* Explainable Behaviour
+* Graceful Degradation
+* Security by Design
+* Replaceable AI Models
+* Observable and Auditable
+* Extensible Through Stable Contracts
+* Simple First, Evolvable Always
+
+All subsequent HLD sections must remain consistent with these principles.
+
+Where a significant architectural choice requires a trade-off between principles, the decision and rationale should be recorded through an Architecture Decision Record.
